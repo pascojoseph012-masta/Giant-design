@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Nav from './projects/Nav'
+import Main from './projects/Main'
 
 function App() {
   
 
   return (
-    <div>
+    <div className="text-white">
       
-      <Nav/>
+      <Main/>
     </div>
   )
 }
