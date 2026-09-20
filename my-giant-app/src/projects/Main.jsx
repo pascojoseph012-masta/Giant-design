@@ -6,7 +6,20 @@ import slide1 from "../assets/10008.png"
 import slide2 from "../assets/10009.png"
 import slide3 from "../assets/10010.png"
 import slide4 from "../assets/10011.png"
+import facebook from "../assets/facebook.jpg"
+import google from "../assets/google.jpg"
+import instgram from "../assets/instgram.jpg"
+import netflix from "../assets/netflix.jpg"
+import whatup from "../assets/what'sup.jpg"
+import tewtter from "../assets/tewtter.jpg"
 import hero from "../assets/hero.png"
+import camer1 from "../assets/camer1.jpg"
+import camer2 from "../assets/camer2.jpg"
+import photo from "../assets/photo.jpg"
+import photo1 from "../assets/photo1.jpg"
+import photo2 from "../assets/photo2.jpg"
+import photo3 from "../assets/photo3.jpg"
+import brand from "../assets/brand.jpg"
 
 const Main = () => {
   return (
@@ -76,10 +89,151 @@ const Main = () => {
             </div>
 
           </div>
-          {/* continue servicw section */}
-          
+          {/* continue service section */}
+          <div className="w-full h-330 flex flex-col border-b border-zinc-800 items-start justify-start px-4 bg-slate sm:h-200 md:border-b md:border-zinc-600 md:h-190
+          lg: lg:h-120 
+          ">
+            <div className="h-60 w-full  bg-slate flex flex-col items-center justify-center gap-3">
+              <h1 className="text-l text-[#ec711e] font-bold ">WHAT WE DO</h1>
+              <p className="text-5xl text-white font-bold">Our Services</p>
+              <p className="text-white text-sm font-semibold text-center sm:w-100 sm:text-[16px]">We provide end-to-end servises and creative solutions that help your brand communicate, connect, and covert </p>
+            </div>
+            {/* card service section */}
+            <div className="flex flex-col items-center justify-start gap-5 sm:grid sm:grid-cols-2 sm:items-center sm:justify-start 
+            md:grid md:grid-cols-2 md:items-center md:justify-start md:gap-5 lg:flex lg:flex-row lg:gap-2 lg:relative lg:bottom-5
+            xl:flex xl:flex-row xl:gap-5 
+            ">
 
-          
+              <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2 sm:border-2 md:border-2  border border-zinc-800 rounded-md px-3 h-60 ">
+                <img src={camer1} className="w-25 rounded-2xl backdrop-opacity-15" />
+                <p className="text-lg text-[#ec711e] font-bold">Photo Editing</p>
+                <h1 className="text-center text-white font-semibold  ">professional photo retouching manipulation and enhencement service</h1> 
+              </div>
+
+               <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2 sm:border-2 md:border-2  border border-zinc-800 rounded-md px-3 h-60 ">
+                <img src={camer2} className="w-25 rounded-2xl backdrop-opacity-15" />
+                <p className="text-lg text-[#ec711e] font-bold">Graphic Design</p>
+                <h1 className="text-center text-white font-semibold  ">from logos to full brand identities we design visual that speak volumes</h1> 
+              </div>
+
+              <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2  sm:border-2 md:border-2  border border-zinc-800 rounded-md px-3 h-60 ">
+                <img src={camer1} className="w-25 rounded-2xl backdrop-opacity-15" />
+                <p className="text-lg text-[#ec711e] font-bold">Brand Identity</p>
+                <h1 className="text-center text-white font-semibold  ">We make brands and writes on any thing from small businesses to big businesses</h1> 
+              </div>
+
+              <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2 sm:border-2 md:border-2   border border-zinc-800 rounded-md px-3 h-60 ">
+                <img src={camer2} className="w-25 rounded-2xl backdrop-opacity-15" />
+                <p className="text-lg text-[#ec711e] font-bold">Social Media Design</p>
+                <h1 className="text-center text-white font-semibold ">We make brands and writes on any thing from small businesses to big businesses</h1> 
+              </div>
+
+            </div>
+          </div>
+          {/* Our work section */}
+          <div className="w-full h-480 bg-slate flex flex-col px-3 2xl:px-15 mt-15 sm:h-270 md:h-270 border-b border-zinc-800">
+            <div className="h-55 bg-amber flex flex-col items-center justify-start gap-2">
+               <p className="text-lg text-[#ec711e] font-bold">OUR WORK</p>
+              <h1 className="text-5xl text-white font-bold">Featured Projects</h1>
+              <h1 className="text-center text-2sm sm:w-100">Explore some of our recent work and see how we turn ideas into powerfull visual stories</h1>
+            </div>
+            {/* card work section */}
+            <div className=" flex flex-col items-center justify-start gap-5 sm:grid sm:grid-cols-2 sm:items-center sm:justify-center
+            md:grid md:grid-cols-2 md:items-center md:justify-center lg:grid lg:grid-cols-2 lg:items-center lg:justify-start
+            xl:grid xl:grid-cols-2 xl:items-center xl:justify-start 2xl:grid 2xl:grid-cols-2 2xl:items-center 2xl:justify-start
+            ">
+              {/* card */}
+              <div className=" border bg-[#0f1011] border-zinc-800 flex flex-col h-100 w-full  ">
+                <div className="w-full h-85 "> <img src={photo} className="w-full h-75 object-cover" /> </div>
+                <div className="w-full h-30 bg-amber flex flex-row items-end justify-around lg:justify-normal px-2 py-2">
+                  <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around lg:w-150 xl:w-150 px-2 flex flex-col">
+                    <p className="text-white text-xl font-bold">Photo Editing</p>
+                    <h1 className="font-bold text-[15px]">Retouching . Manipulation . Enhencment</h1>
+                  </div>
+                    <button type="button" className="w-10 h-10 rounded-full relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                </div>
+              </div>
+
+              <div className=" border bg-[#0f1011] border-zinc-800 flex flex-col h-100 w-full">
+                <div className="w-full h-85 "> <img src={photo1} className="w-full h-75 object-cover" /> </div>
+                <div className="w-full h-30 bg-amber flex flex-row items-end justify-  px-2 py-2">
+                  <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around w-75 lg:w-150 xl:w-150  px-2 flex flex-col">
+                    <p className="text-white text-xl font-bold">Graphic Design</p>
+                    <h1 className="font-bold text-[15px]">Branding . Print . Digital</h1>
+                  </div>
+                    <button type="button" className="w-10 h-10 rounded-full relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                </div>
+              </div>
+
+              <div className=" border bg-[#0f1011] border-zinc-800 flex flex-col h-100 w-full">
+                <div className="w-full h-85 "> <img src={photo3} className="w-full h-75 object-cover" /> </div>
+                <div className="w-full h-30 bg-amber flex flex-row items-end justify-  px-2 py-2">
+                  <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around w-75 lg:w-150 xl:w-150  px-2 flex flex-col">
+                    <p className="text-white text-xl font-bold">Social Media Design</p>
+                    <h1 className="font-bold text-[15px]">Web,dev . Ads . Stories</h1>
+                  </div>
+                    <button type="button" className="w-10 h-10 rounded-full relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                </div>
+              </div>
+
+              <div className=" border bg-[#0f1011] border-zinc-800 flex flex-col h-100 w-full">
+                <div className="w-full h-85 "> <img src={photo2} className="w-full h-75 object-cover" /> </div>
+                <div className="w-full h-30 bg-amber flex flex-row items-end justify-  px-2 py-2">
+                  <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around w-75 lg:w-150 xl:w-150 px-2 flex flex-col">
+                    <p className="text-white text-xl font-bold">Social Media Design</p>
+                    <h1 className="font-bold text-[15px]">Web,dev . Ads . Stories</h1>
+                  </div>
+                    <button type="button" className="w-10 h-10 rounded-full relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                </div>
+              </div>
+
+              
+              {/* card */}
+            </div>
+          </div>
+          {/* why section continue */}
+          <div className="w-full h-200 border-b border-zinc-800 px-3 flex flex-col gap-5 mt-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2
+          lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0
+          ">
+            <div className="h-50 bg-amber flex flex-col items-center justify-evenly lg:border-none sm:border-b rounded-4xl sm:border-zinc-800">
+               <p className="text-md font-bold text-[#ec711e]">WHY CHOOSE GIANTS?</p>
+               <h1 className="text-white text-5xl text-center font-bold">WHY CHOOSE <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GIANTS.</span> </h1>
+               <h1></h1>
+            </div>
+            
+              <div className="h-50 flex flex-col border-r-2 border-zinc-800 sm:border-r sm:border-zinc-800 lg:py-5 lg:h-30 lg:items-center lg:justify-center lg:mt-5 ">
+                 <div className="w-full h-40  flex items-start justify-start px-10 py-2"><p className="text-5xl">🎈</p></div>
+                 <div className="w-full h-full  flex flex-col items-start justify-start px-10 py-2">
+                   <p className="text-white text-xl font-bold">Creative Excellence</p>
+                   <h1 className="text-gray-100 font-bold text-sm ">We turn ideas into high-impact visual that get result.</h1>
+                  </div>
+
+              </div>
+
+              <div className="h-50 flex flex-col border-r-2 border-zinc-800 sm:border-r sm:border-zinc-800 lg:py-5 lg:h-30 lg:items-center lg:justify-center lg:mt-5">
+                 <div className="w-full h-40  flex items-start justify-start px-10 py-2"><p className="text-5xl">🎃</p></div>
+                 <div className="w-full h-full  flex flex-col items-start justify-start px-10 py-2">
+                   <p className="text-white text-xl font-bold">Experienced Team</p>
+                   <h1 className="text-gray-100 font-bold text-sm"> skilled disigner and editors with a position for creativity.</h1>
+                  </div>
+
+              </div>
+
+              
+              <div className="h-50 flex flex-col border-r-2 border-zinc-800 sm:border-r sm:border-zinc-800 lg:border-none lg:py-5 lg:h-30 lg:items-center lg:justify-center lg:mt-5">
+                 <div className="w-full h-40  flex items-start justify-start px-10 py-2"><p className="text-5xl">🎡</p></div>
+                 <div className="w-full h-full  flex flex-col items-start justify-start px-10 py-2">
+                   <p className="text-white text-xl font-bold">On-time Derivery</p>
+                   <h1 className="text-gray-100 font-bold text-sm"> We respect your time and deliver with precision.</h1>
+                  </div>
+
+              </div>
+
+               
+
+          </div>
+          {/* why section end */}
+          lodfghjkl
         </div>
         
       </div>
