@@ -2,7 +2,12 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+       {/* main service */}
+      <div className="w-full h-200 bg-slate-900 relative top-15">
+        <p></p>
+      </div>
+    </div>
   )
 }
 
