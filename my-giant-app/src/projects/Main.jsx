@@ -30,8 +30,10 @@ import clock from "../assets/clock.svg"
 import print from "../assets/print.jpg"
 import shop from "../assets/shop.jpg"
 import branding from "../assets/branding.jpg"
-
-
+import brandi from "../assets/branding (2).png"
+import phone from "../assets/phone.svg"
+import location from "../assets/location.svg"
+import email from "../assets/email.svg"
 
 const Main = () => {
   return (
@@ -106,7 +108,7 @@ const Main = () => {
               </div>
 
               <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2  sm:border-2 md:border-2  border border-zinc-800 rounded-md px-3 h-60 ">
-                <img src={camer1} className="w-25 rounded-2xl backdrop-opacity-15" />
+                <img src={brandi} className="w-25 rounded-2xl backdrop-opacity-15 " />
                 <p className="text-lg text-[#ec711e] font-bold">Branding</p>
                 <h1 className="text-center text-white font-semibold  ">We make brands and writes on any thing from small businesses to big businesses</h1> 
               </div>
@@ -123,7 +125,7 @@ const Main = () => {
           <div className="w-full h-480 bg-slate flex flex-col px-3 2xl:px-15 mt-15 sm:h-270 md:h-270 border-b border-zinc-800">
             <div className="h-55 bg-amber flex flex-col items-center justify-start gap-2">
                <p className="text-lg text-[#ec711e] font-bold">OUR WORK</p>
-              <h1 className="text-5xl text-white font-bold text-center">Featured Projects</h1>
+              <h1 className="text-5xl text-white font-bold text-center ">Featured Projects</h1>
               <h1 className="text-center text-2sm sm:w-100">Explore some of our recent work and see how we turn ideas into powerfull visual stories</h1>
             </div>
             {/* card work section */}
@@ -240,7 +242,7 @@ const Main = () => {
             <div className="w-full h-60 flex flex-col justify-evenly px-3 border-l border-zinc-800 lg:border-none">
               <p className="bg-linear-to-r from-indigo-500 text-5xl  via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GAINTS.</p>
               <h1 className="text-left text-sm text-gray-100 font-bold w-70 ">We design. We edit. we elevate brands Turning creative ideas into powerful visual for modern businesses.</h1>
-                <div className="flex flex-row gap-10 ">
+                <div className="flex flex-row gap-10 sm:flex sm:gap-7  ">
                 <img src={facebook} className="w-16 rounded-full " />  
                 <img src={instgram} className="w-16 rounded-full" />  
                 <img src={netflix} className=" w-16 rounded-full sm:hidden md:block lg:hidden" />  
@@ -252,8 +254,8 @@ const Main = () => {
               <p className="text-white font-semibold text-xl">Quick Links</p>
               <div className="flex flex-col mt-2 gap-2">
                 
-                <Link to="#" className="text-white cursor-pointer font-semibold">Home</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">Services</Link>
+                <Link to="/" className="text-white cursor-pointer font-semibold">Home</Link>
+                <Link to="/Service" className="text-white cursor-pointer font-semibold">Services</Link>
                 <Link to="#" className="text-white cursor-pointer font-semibold">Our Work</Link>
                 <Link to="#" className="text-white cursor-pointer font-semibold">About us</Link>
                 <Link to="#" className="text-white cursor-pointer font-semibold">Contact Us</Link>
@@ -276,9 +278,9 @@ const Main = () => {
             <div className=" w-full h-60 flex flex-col gap-5  px-3 border-l border-zinc-800 lg:border-none ">
               <p className="text-white font-semibold text-xl">Get in Touch</p>
               <div className="flex flex-col mt-2 gap-2">
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={group} className="w-10" /> <p className="w-60">kigali . nyarugenge . rubangura plaza . Giants Studio</p> </div>
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={group} className="w-10" /> <p className="w-60">Giants@gmail.com</p> </div>
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={group} className="w-10" /> <p className="w-60">+250 788800555</p> </div>
+                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={location} className="w-8" /> <p className="w-60">kigali . nyarugenge . rubangura plaza . Giants Studio</p> </div>
+                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={email} className="w-8" /> <p className="w-60">Giants@gmail.com</p> </div>
+                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={phone} className="w-8" /> <p className="w-60">+250 788800555</p> </div>
               </div>
 
             </div>
@@ -302,7 +304,7 @@ const Main = () => {
           </div>
 
           </div>
-          
+          {/* end footer */}
         </div>
         
       </div>
