@@ -20,6 +20,7 @@ import instgram from "../../assets/instgram.jpg"
 import netflix from "../../assets/netflix.jpg"
 import whatup from "../../assets/what'sup.jpg"
 import tewtter from "../../assets/tewtter.jpg"
+import designi from "../../assets/designi.jpg"
 
 
 
@@ -105,7 +106,7 @@ const Service = () => {
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
-            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={design1} className="object-cover w-full h-full rounded-t-xl" /></div>
+            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={designi} className="object-cover w-full h-full rounded-t-xl" /></div>
             <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
               <p className="text-5xl text-white font-medium">Designing</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">professional photo retouching manipulation and enhencement service with reqiured expertise making the target expectation came alive</h1> 

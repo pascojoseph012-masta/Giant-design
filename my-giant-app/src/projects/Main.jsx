@@ -53,7 +53,7 @@ const Main = () => {
               <p className="text-5xl font-semibold">We Design.</p>
               <p className="text-5xl font-semibold">We Edit.</p>
               <p className="text-4xl font-semibold lg:text-5xl md:text-5xl ">We Elevate <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">Brands.</span></p>
-              <h1 className="w-full my-5 lg:w-100">Giants is a creative graphic design and photo editing company that helps businesses stand aut with powerfull
+              <h1 className="w-full my-5 lg:w-100">Giants is a creative graphic design and photo editing company that helps businesses stand there with powerfull
                 visuals.
               </h1>
 

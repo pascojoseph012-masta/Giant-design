@@ -10,20 +10,31 @@ import Nav from './projects/Nav'
 import About from'./projects/pages/About'
 import ScrollToTop from './projects/ScrollToTop';
 import Muchad from './learn/Muchad';
+import ModelLink from './projects/ModelLink'
+
+
 function App() {
 
+   const [PopupOption, setPopupOption] = useState(false)
+   const ClosePopup = () => {
+    setPopupOption(false)
+   }
+   const OpenPopup = () => {
+    setPopupOption(true)
+   }
   
 
   return (
-   
     <Router>
      {/* <Muchad/> */}
-       <Nav/>
-        <ScrollToTop/>
+     { PopupOption && <ModelLink ClosePopup={ClosePopup}/>}
+       {<Nav OpenPopup={OpenPopup}/>}
+       
+        
 
       <Routes>
-        <Route path="/" element={<Main/>}/>
-        <Route path="/Service" element={<Service/>}/>
+        <Route path="/" element={<Main />}/>
+        <Route path="/Service" element={<Service ClosePopup={ClosePopup}/>}/>
         <Route path="/Work" element={<Work/>}/>
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/About" element={<About/>}/>

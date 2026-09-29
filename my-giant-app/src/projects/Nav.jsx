@@ -3,7 +3,7 @@ import logo from "../assets/vite.svg";
 import smbars from "../assets/smbars.svg";
 import {Link} from "react-router-dom"
 
-const Nav = () => {
+  const Nav = ({OpenPopup}) => {
     
   return (
     <div className="text-white">
@@ -15,7 +15,7 @@ const Nav = () => {
        ">
 
         <div className="flex flex-row gap-3 w-50 items-center justify-center relative right-10 sm:relative sm:right-7 md:relative md:right-10 lg:relative lg:right-20 xl:relative xl:right-35 2xl:relative 2xl:right-45 "><img src={logo} className="w-7" /> <p className="text-white font-semibold text-xl">Giants</p>  </div>
-        <img src={smbars} className="w-5 lg:hidden sm:hidden"/>
+         <button type="button" onClick={OpenPopup} className="cursor-pointer"><img src={smbars} className="w-5 lg:hidden sm:hidden"/></button>
 
           <div className=" min-[20px]:hidden sm:relative sm:right-10  lg:flex lg:flex-row lg:gap-10 lg:items-center lg:justify-center lg:bg-transparent lg:h-14  lg:w-120 sm:flex 
             sm:flex-row  sm:items-center sm:justify-center sm:h-14 sm:w-80 sm:gap-5  
