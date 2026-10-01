@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import close from '../assets/close2.svg'
 
-const ModelLink = ({ClosePopup}) => {
+const ModelLink = ({ClosePopup, TalkOpen}) => {
   return (
     <div className="text-white">
         <div onClick={ClosePopup}  className="w-full h-250 fixed z-100 top-0 backdrop-blur-xl flex flex-col ">
@@ -16,7 +16,7 @@ const ModelLink = ({ClosePopup}) => {
                 <Link to="#" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3">About Us</Link>
             </div>
             <div className="px-3 w-full h-auto">
-            <button type="button" className="w-full h-15 border border-[#ec711e] backdrop-blur-2xl text-xl font-medium rounded-md mt-10 px-5">LET'S TALK</button>
+            <button type="button" onClick={TalkOpen} className="w-full h-15 border border-[#ec711e] backdrop-blur-2xl text-xl font-medium rounded-md mt-10 px-5">LET'S TALK</button>
             </div>
 
         </div>
