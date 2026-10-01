@@ -66,7 +66,7 @@ const Service = () => {
         {/* our service section cards */}
         <div className="w-full h-auto  flex flex-col items-center justify-start px-1 bg-amber rounded-t-xl  gap-5 col-gap-0 lg:bg-amber
         2xl:bg-amber
-        lg:px-10 2xl:px-15
+        lg:px-10 xl:px-20 2xl:px-15
         sm:w-full sm:grid sm:grid-cols-2 sm:h-auto sm:items-center sm:justify-evenly
         md:w-full md:grid md:grid-cols-2 md:h-auto md:items-center md:justify-evenly
         xl:w-full xl:grid xl:grid-cols-2 xl:h-auto xl:items-center xl:justify-evenly
