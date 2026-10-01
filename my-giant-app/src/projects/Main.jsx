@@ -35,7 +35,7 @@ import phone from "../assets/phone.svg"
 import location from "../assets/location.svg"
 import email from "../assets/email.svg"
 
-const Main = () => {
+const Main = ({TalkOpen}) => {
   return (
     
       <div className="text-white">
@@ -58,7 +58,7 @@ const Main = () => {
               </h1>
 
               <div className="w-full h-40  flex flex-col items-start gap-5 md:flex md:flex-row  md:h-15 sm:flex sm:flex-row  sm:h-15 lg:w-100">
-                <button type="button" className=" cursor-pointer w-full text-white text-xl font-semibold h-12 rounded-md backdrop-blur-xl bg-linear-to-r from-[#eb640aa6] to-[#ec403b] hover:bg-[#f16d14a6] ">LET'S TALK &#8594;</button>
+                <button type="button" onClick={TalkOpen} className=" cursor-pointer w-full text-white text-xl font-semibold h-12 rounded-md backdrop-blur-xl bg-linear-to-r from-[#eb640aa6] to-[#ec403b] hover:bg-[#f16d14a6] ">LET'S TALK &#8594;</button>
                 <button type="button" className=" cursor-pointer w-full text-white text-xl font-semibold h-12 rounded-md  border border-white md:border-2 md:backdrop-blur-md">View Our Work</button>
               </div>
             
@@ -90,7 +90,7 @@ const Main = () => {
               <p className="text-white text-sm font-semibold text-center sm:w-100 sm:text-[16px]">We provide end-to-end servises and creative solutions that help your brand communicate, connect, and covert </p>
             </div>
             {/* card service section */}
-            <div className="flex flex-col items-center justify-start gap-5 sm:grid sm:grid-cols-2 sm:items-center sm:justify-start 
+            <div className="flex flex-col items-center justify-start gap-5 sm:grid sm:grid-cols-2 sm:items-center sm:justify-start  
             md:grid md:grid-cols-2 md:items-center md:justify-start md:gap-5 lg:flex lg:flex-row lg:gap-2 lg:relative lg:bottom-5
             xl:flex xl:flex-row xl:gap-5 
             ">
@@ -100,6 +100,7 @@ const Main = () => {
                 <p className="text-lg text-[#ec711e] font-bold">Photo Editing</p>
                 <h1 className="text-center text-white font-semibold  ">professional photo retouching manipulation and enhencement service</h1> 
               </div>
+              
 
                <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2 sm:border-2 md:border-2  border border-zinc-800 rounded-md px-3 h-60 ">
                 <img src={shop} className="w-30 rounded-2xl backdrop-opacity-15" />
@@ -230,7 +231,7 @@ const Main = () => {
               <p className="text-lg font-bold text-[#ec711e]">LET'S CREATE TOGETHER</p>
               <h1 className="text-white text-5xl font-bold text-center">Ready To Start Your Project?</h1>
               <h1 className="text-gray-100 text-2sm font-bold text-center  sm:w-90">Bring Your ideas to life with a team that cares about your vision  Let's create something amazing together</h1>
-                <button type="button" className=" cursor-pointer sm:w-90 w-full text-white text-xl font-semibold h-12 rounded-md backdrop-blur-xl bg-linear-to-r from-[#eb640aa6] to-[#ec403b] hover:bg-[#f16d14a6] ">LET'S TALK  &#8594;</button>
+                <button type="button" onClick={TalkOpen} className=" cursor-pointer sm:w-90 w-full text-white text-xl font-semibold h-12 rounded-md backdrop-blur-xl bg-linear-to-r from-[#eb640aa6] to-[#ec403b] hover:bg-[#f16d14a6] ">LET'S TALK  &#8594;</button>
 
           </div>
           {/* last section end */}

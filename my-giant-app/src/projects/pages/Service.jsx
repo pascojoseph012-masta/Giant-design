@@ -84,25 +84,25 @@ const Service = () => {
               <div className="flex flex-row items-start mt-5 justify-center w-full h-full">
                 <div className="flex flex-col items-center justify-start w-full h-full px-4">
                   <ul className="flex gap-5 flex-col">
-                    <li className="text-lg text-white list-disc ">Retouch</li>
-                    <li className="text-lg text-white list-disc ">Manipulation</li>
-                    <li className="text-lg text-white list-disc ">Enhencement</li>
-                    <li className="text-lg text-white list-disc ">stunishing</li>
+                    <li className="text-lg text-white list-disc ">High-End Retouching</li>
+                    <li className="text-lg text-white list-disc ">Creative Munipulation</li>
+                    <li className="text-lg text-white list-disc ">Color Grading</li>
+                    <li className="text-lg text-white list-disc ">Stunning Visuals</li>
                   </ul>
                 </div>
                 <div className="flex flex-col items-end justify-start w-full h-full px-4">
                   <ul className="flex gap-5 flex-col">
-                    <li className="text-lg text-white list-disc ">Retouch</li>
-                    <li className="text-lg text-white list-disc ">Manipulation</li>
-                    <li className="text-lg text-white list-disc ">Enhencement</li>
-                    <li className="text-lg text-white list-disc ">stunishing</li>
+                    <li className="text-lg text-white list-disc ">Background Removal</li>
+                    <li className="text-lg text-white list-disc ">Image Restoration</li>
+                    <li className="text-lg text-white list-disc ">Product Enhancement</li>
+                    <li className="text-lg text-white list-disc ">Lighting Correction</li>
                   </ul>
                 </div>
                   
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60  flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60  flex items-center justify-center mb-3 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
@@ -146,18 +146,18 @@ const Service = () => {
               <div className="flex flex-row items-start mt-5 justify-center w-full h-full">
                 <div className="flex flex-col items-center justify-start w-full h-full px-4">
                   <ul className="flex gap-5 flex-col">
-                    <li className="text-lg text-white list-disc ">Clothes</li>
-                    <li className="text-lg text-white list-disc ">Objects</li>
-                    <li className="text-lg text-white list-disc ">Furniture</li>
-                    <li className="text-lg text-white list-disc ">Bolding</li>
+                    <li className="text-lg text-white list-disc ">Bespoke Layouts</li>
+                    <li className="text-lg text-white list-disc ">Custom Typography</li>
+                    <li className="text-lg text-white list-disc ">Color Palette</li>
+                    <li className="text-lg text-white list-disc ">Them Integration</li>
                   </ul>
                 </div>
                 <div className="flex flex-col items-end justify-start w-full h-full px-4">
                   <ul className="flex gap-5 flex-col">
-                    <li className="text-lg text-white list-disc ">Retouch</li>
-                    <li className="text-lg text-white list-disc ">Manipulation</li>
-                    <li className="text-lg text-white list-disc ">Enhencement</li>
-                    <li className="text-lg text-white list-disc ">stunishing</li>
+                    <li className="text-lg text-white list-disc ">Luxury Finishes</li>
+                    <li className="text-lg text-white list-disc ">Paper Stock Selection</li>
+                    <li className="text-lg text-white list-disc ">Digital RSVP Kits</li>
+                    <li className="text-lg text-white list-disc ">Print-Ready Files</li>
                   </ul>
                 </div>
                   
@@ -177,18 +177,18 @@ const Service = () => {
               <div className="flex flex-row items-start mt-5 justify-center w-full h-full">
                 <div className="flex flex-col items-center justify-start w-full h-full px-4">
                   <ul className="flex gap-5 flex-col">
-                    <li className="text-lg text-white list-disc ">Logos</li>
-                    <li className="text-lg text-white list-disc ">Posters</li>
-                    <li className="text-lg text-white list-disc ">Stories</li>
-                    <li className="text-lg text-white list-disc ">stunishing</li>
+                    <li className="text-lg text-white list-disc ">Custom Logo Design</li>
+                    <li className="text-lg text-white list-disc ">Brand Strategy</li>
+                    <li className="text-lg text-white list-disc ">Typograph Styling</li>
+                    <li className="text-lg text-white list-disc ">Color Psychology</li>
                   </ul>
                 </div>
                 <div className="flex flex-col items-end justify-start w-full h-full px-4">
                   <ul className="flex gap-5 flex-col">
-                    <li className="text-lg text-white list-disc ">Retouch</li>
-                    <li className="text-lg text-white list-disc ">Manipulation</li>
-                    <li className="text-lg text-white list-disc ">Enhencement</li>
-                    <li className="text-lg text-white list-disc ">stunishing</li>
+                    <li className="text-lg text-white list-disc ">Brand Guideline</li>
+                    <li className="text-lg text-white list-disc ">visual Assets</li>
+                    <li className="text-lg text-white list-disc ">Callateral Systems</li>
+                    <li className="text-lg text-white list-disc ">Rebranding Services</li>
                   </ul>
                 </div>
                   

@@ -11,6 +11,7 @@ import About from'./projects/pages/About'
 import ScrollToTop from './projects/ScrollToTop';
 import Muchad from './learn/Muchad';
 import ModelLink from './projects/ModelLink'
+import ModelTalk from './projects/ModelTalk'
 
 
 function App() {
@@ -22,18 +23,30 @@ function App() {
    const OpenPopup = () => {
     setPopupOption(true)
    }
+    
+   const [TalkOption, setTalkOption] = useState(false)
+   
+   const TalkOpen = () => {
+    setTalkOption(true)
+   }
+
+   const TalkClose = () => {
+    setTalkOption(false)
+   }
+   
   
 
   return (
     <Router>
      {/* <Muchad/> */}
      { PopupOption && <ModelLink ClosePopup={ClosePopup}/>}
-       {<Nav OpenPopup={OpenPopup}/>}
+     { TalkOption && <ModelTalk TalkClose={TalkClose}/>}
+       {<Nav OpenPopup={OpenPopup} TalkOpen={TalkOpen}/>}
        
         
 
       <Routes>
-        <Route path="/" element={<Main />}/>
+        <Route path="/" element={<Main TalkOpen={TalkOpen}/>}/>
         <Route path="/Service" element={<Service ClosePopup={ClosePopup}/>}/>
         <Route path="/Work" element={<Work/>}/>
         <Route path="/Contact" element={<Contact/>}/>
