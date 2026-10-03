@@ -7,9 +7,11 @@ const ModelTalk = ({TalkClose}) => {
   return (
     <div className="text-white">
         <div onClick={TalkClose} className="w-full h-250 sm:h-300 fixed z-50 top-0 backdrop-blur-xl flex flex-col items-center px-3 
-        sm:px-15 lg:px-110 xl:px-110 
+        sm:px-30 md:px-30 lg:px-110 xl:px-110 
         ">
-            <div className="w-full h-140 rounded-2xl border-2 border-amber-800 bg-[#0f1011] backdrop-blur-2xl mt-20 sm:mt-50 lg:mt-20">
+            <div className="w-full h-140 rounded-2xl border-2 border-amber-800 bg-[#0f1011] backdrop-blur-2xl mt-20 sm:mt-50 lg:mt-20
+            
+            ">
                 <div className="w-full h-10 flex items-end justify-end py-1 pl-2">
                     <button type="button" onClick={TalkClose} className="w-8 h-8 cursor-pointer "><img src={close} className="w-5  object-cover" /></button>
                 </div>

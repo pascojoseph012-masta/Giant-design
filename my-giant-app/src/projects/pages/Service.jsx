@@ -30,9 +30,9 @@ const Service = () => {
   return (
     <div>
       {/* main service */}
-      <div className="w-full h-  bg-[#000000f8] relative top-15 text-white bg-amber">
+      <div className="w-full h-  bg-[#000000f8] relative top-15 text-white bg-amber min-[320px]:w-100 min-[400px]:w-full">
         <div className="w-full flex flex-col px-3 items-center justify-around bg-slate h-250  sm:flex sm:place-items-start  sm:justify-start  sm:h-140 
-        2xl:px-15
+        2xl:px-15 lg:px-15 xl:px-15 2xl: min-[320px]:w-100  min-[400px]:w-full
         "> 
         {/* lading service section */}
         
@@ -57,14 +57,14 @@ const Service = () => {
         </div>
         {/* landing service section end */}
         {/* our service section */}
-        <div className="w-full h-50 flex flex-col items-center justify-evenly px-3">
+        <div className="w-full h-50 flex flex-col items-center justify-evenly px-3 min-[320px]:w-100 min-[400px]:w-full">
           <p className="font-medium text-white text-5xl text-center">Our Services</p>
           <h1 className="text-zinc-300 text-center text-2sm sm:w-150 md:150">We provide end-to-end servises and creative solutions that help your brand communicate, connect, and convert powered by high expertise
             in designing and graphic design
           </h1>
         </div>
         {/* our service section cards */}
-        <div className="w-full h-auto  flex flex-col items-center justify-start px-1 bg-amber rounded-t-xl  gap-5 col-gap-0 lg:bg-amber
+        <div className="w-full h-auto min-[320px]:w-100 min-[400px]:w-full flex flex-col items-center justify-start px-1 bg-amber rounded-t-xl  gap-5 col-gap-0 lg:bg-amber
         2xl:bg-amber
         lg:px-10 xl:px-20 2xl:px-15
         sm:w-full sm:grid sm:grid-cols-2 sm:h-auto sm:items-center sm:justify-evenly
@@ -264,7 +264,7 @@ const Service = () => {
         </div>
          {/* footer start */}
           <div className="w-full h-300 flex flex-col mt-5 border-t border-zinc-800  gap-5 px-3 items-center justify-evenly sm:grid sm:grid-cols-2 sm:h-170 sm:gap-5 md:grid md:grid-cols-2 md:h-170 md:gap-5
-            lg:flex lg:flex-row lg:h-70
+            lg:flex lg:flex-row lg:h-70 min-[320px]:w-100 min-[400px]:w-full
            ">
             {/*footer cards start  */}
             <div className="w-full h-60 flex flex-col justify-evenly px-3 border-l border-zinc-800 lg:border-none">
@@ -320,7 +320,7 @@ const Service = () => {
           {/* footer end */}
           <div className="px-3">
           <div className="w-full h-60 flex flex-col justify-around items-center border-t border-zinc-800 px-3 sm:flex sm:flex-row sm:gap-20 sm:h-35 md:h-30
-          lg:h-20 lg:gap-170
+          lg:h-20 lg:gap-170 min-[320px]:w-100 min-[400px]:w-full
           ">
 
               <p>2026 Giants. All right reserved.</p>
