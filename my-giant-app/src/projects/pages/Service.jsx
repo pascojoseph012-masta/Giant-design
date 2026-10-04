@@ -21,7 +21,9 @@ import netflix from "../../assets/netflix.jpg"
 import whatup from "../../assets/what'sup.jpg"
 import tewtter from "../../assets/tewtter.jpg"
 import designi from "../../assets/designi.jpg"
-
+import sbranding from "../../assets/sbranding.jpeg" 
+import flatdesigning from "../../assets/flatdesigning.jpeg"
+import printing from "../../assets/printing.jpeg"
 
 
 
@@ -30,9 +32,9 @@ const Service = () => {
   return (
     <div>
       {/* main service */}
-      <div className="w-full h-  bg-[#000000f8] relative top-15 text-white bg-amber min-[320px]:w-100 min-[400px]:w-full">
+      <div className="w-full h-  bg-[#000000f8] relative top-15 text-white bg-amber min-[100px]:w-100 min-[400px]:w-full">
         <div className="w-full flex flex-col px-3 items-center justify-around bg-slate h-250  sm:flex sm:place-items-start  sm:justify-start  sm:h-140 
-        2xl:px-15 lg:px-15 xl:px-15 2xl: min-[320px]:w-100  min-[400px]:w-full
+        2xl:px-15 lg:px-15 xl:px-15 2xl: min-[100px]:w-100 min-[400px]:w-full
         "> 
         {/* lading service section */}
         
@@ -57,14 +59,14 @@ const Service = () => {
         </div>
         {/* landing service section end */}
         {/* our service section */}
-        <div className="w-full h-50 flex flex-col items-center justify-evenly px-3 min-[320px]:w-100 min-[400px]:w-full">
+        <div className="w-full h-50 flex flex-col items-center justify-evenly px-3 min-[100px]:w-100 min-[400px]:w-full">
           <p className="font-medium text-white text-5xl text-center">Our Services</p>
           <h1 className="text-zinc-300 text-center text-2sm sm:w-150 md:150">We provide end-to-end servises and creative solutions that help your brand communicate, connect, and convert powered by high expertise
             in designing and graphic design
           </h1>
         </div>
         {/* our service section cards */}
-        <div className="w-full h-auto min-[320px]:w-100 min-[400px]:w-full flex flex-col items-center justify-start px-1 bg-amber rounded-t-xl  gap-5 col-gap-0 lg:bg-amber
+        <div className="w-full h-auto min-[100px]:w-100 min-[400px]:w-full flex flex-col items-center justify-start px-1 bg-amber rounded-t-xl  gap-5 col-gap-0 lg:bg-amber
         2xl:bg-amber
         lg:px-10 xl:px-20 2xl:px-15
         sm:w-full sm:grid sm:grid-cols-2 sm:h-auto sm:items-center sm:justify-evenly
@@ -106,7 +108,7 @@ const Service = () => {
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
-            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={designi} className="object-cover w-full h-full rounded-t-xl" /></div>
+            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={flatdesigning} className="object-cover w-full h-full rounded-t-xl" /></div>
             <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
               <p className="text-5xl text-white font-medium">Designing</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">professional photo retouching manipulation and enhencement service with reqiured expertise making the target expectation came alive</h1> 
@@ -137,7 +139,7 @@ const Service = () => {
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
-            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={print} className="object-cover w-full h-full rounded-t-xl" /></div>
+            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={printing} className="object-cover w-full h-full rounded-t-xl" /></div>
             <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
               <p className="text-5xl text-white font-medium">Printing</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">Premium print finishes including foil stamping, embossing, and luxury cardstocks No pixelation, no mistakes. Just crisp, high-resolution prints every time.</h1> 
@@ -168,7 +170,7 @@ const Service = () => {
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
-            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={branding} className="object-cover w-full h-full rounded-t-xl" /></div>
+            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={sbranding} className="object-cover w-full h-full rounded-t-xl" /></div>
             <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
               <p className="text-5xl text-white font-medium">Branding</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">professional photo retouching manipulation and enhencement service with reqiured expertise making the target expectation came alive</h1> 
@@ -264,7 +266,7 @@ const Service = () => {
         </div>
          {/* footer start */}
           <div className="w-full h-300 flex flex-col mt-5 border-t border-zinc-800  gap-5 px-3 items-center justify-evenly sm:grid sm:grid-cols-2 sm:h-170 sm:gap-5 md:grid md:grid-cols-2 md:h-170 md:gap-5
-            lg:flex lg:flex-row lg:h-70 min-[320px]:w-100 min-[400px]:w-full
+            lg:flex lg:flex-row lg:h-70 min-[100px]:w-100 min-[400px]:w-full
            ">
             {/*footer cards start  */}
             <div className="w-full h-60 flex flex-col justify-evenly px-3 border-l border-zinc-800 lg:border-none">
@@ -320,7 +322,7 @@ const Service = () => {
           {/* footer end */}
           <div className="px-3">
           <div className="w-full h-60 flex flex-col justify-around items-center border-t border-zinc-800 px-3 sm:flex sm:flex-row sm:gap-20 sm:h-35 md:h-30
-          lg:h-20 lg:gap-170 min-[320px]:w-100 min-[400px]:w-full
+          lg:h-20 lg:gap-170 min-[100px]:w-100 min-[400px]:w-full
           ">
 
               <p>2026 Giants. All right reserved.</p>
