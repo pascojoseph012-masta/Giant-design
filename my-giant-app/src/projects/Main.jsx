@@ -47,7 +47,7 @@ const Main = ({TalkOpen}) => {
         <div className="w-full h-300   absolute top-15">
           {/* landa holder */}
           <div className="w-full h-200 bg-amber flex flex-col md:bg-amber-  md:w-full md:h-120 md:flex md:flex-row sm:bg-amber 
-           sm:w-full sm:h-120 sm:flex sm:flex-row min-[100px]:w-100 min-[400px]:w-full
+           sm:w-full sm:h-120 sm:flex sm:flex-row min-[100px]:w-100 min-[300px]:w-full
           ">
             <div className=" lg:w-120  h-full bg-indigo- md:h-100 sm:-100 mx-5 my-13 "> 
               
@@ -74,7 +74,7 @@ const Main = ({TalkOpen}) => {
           {/* continue sliding section */}
 
           <div className="w-full h-25 bg-[#101011ee] backdrop-grayscale-50 sm:relative sm:bottom-0 md:relative md:bottom-0 lg:relative lg:bottom-0 xl:relative xl:bottom-0 2xl:relative 2xl:bottom-0  relative bottom-5  flex flex-row items-center justify-center wrap-normal gap-5 overflow-hidden 
-          min-[100px]:w-100 min-[400px]:w-full
+          min-[100px]:w-100 min-[300px]:w-full
           ">
             <div className="h-full px-4 animate-pulse animate-x-spin w-full flex flex-row items-center justify-around wrap-normal gap-5 overflow-hidden">
             <img src={slide1} alt="" />
@@ -86,7 +86,7 @@ const Main = ({TalkOpen}) => {
           </div>
           {/* continue service section */}
           <div className="w-full h-330 flex flex-col border-b border-zinc-800 items-start justify-start px-4 bg-slate sm:h-200 md:border-b md:border-zinc-600 md:h-190
-          lg: lg:h-120 min-[100px]:w-100 min-[400px]:w-full
+          lg: lg:h-120 min-[100px]:w-100 min-[300px]:w-full
           ">
             <div className="h-60 w-full  bg-slate flex flex-col items-center justify-center gap-3">
               <h1 className="text-l text-[#ec711e] font-bold ">WHAT WE DO</h1>
@@ -128,7 +128,7 @@ const Main = ({TalkOpen}) => {
           </div>
           {/* Our work section */}
           <div className="w-full h-480 bg-slate flex flex-col px-3 2xl:px-15 mt-15 sm:h-270 md:h-270 border-b border-zinc-800 
-          min-[100px]:w-100 min-[400px]:w-full
+          min-[100px]:w-100 min-[300px]:w-full
           ">
             <div className="h-55 bg-amber flex flex-col items-center justify-start gap-2">
                <p className="text-lg text-[#ec711e] font-bold">OUR WORK</p>
@@ -191,7 +191,7 @@ const Main = ({TalkOpen}) => {
           </div>
           {/* why section continue */}
           <div className="w-full h-200 border-b border-zinc-800 px-3 flex flex-col gap-5 mt-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2
-          lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0 lg:items-center lg:justify-center min-[100px]:w-100 min-[400px]:w-full
+          lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0 lg:items-center lg:justify-center min-[100px]:w-100 min-[300px]:w-full
           ">
             <div className="h-50 bg-amber flex flex-col items-center justify-evenly lg:border-none sm:border-b rounded-4xl sm:border-zinc-800">
                <p className="text-md font-bold text-[#ec711e]">WHY CHOOSE GIANTS?</p>
@@ -233,7 +233,7 @@ const Main = ({TalkOpen}) => {
           {/* why section end */}
           {/* last section start */}
           <div className="w-full h-80 flex flex-col items-center justify-evenly px-3 border-b-2 border-zinc-800 lg:border-none
-          min-[100px]:w-100 min-[400px]:w-full
+          min-[100px]:w-100 min-[300px]:w-full
           "> 
             <img src={image2} className="w-full h-80 object-cover -z-10 absolute opacity-50 " />
               <p className="text-lg font-bold text-[#ec711e]">LET'S CREATE TOGETHER</p>
@@ -301,7 +301,7 @@ const Main = ({TalkOpen}) => {
           {/* footer end */}
           <div className="px-3">
           <div className="w-full h-60 flex flex-col justify-around items-center border-t border-zinc-800 px-3 sm:flex sm:flex-row sm:gap-20 sm:h-35 md:h-30
-          lg:h-20 lg:gap-170 min-[100px]:w-100 min-[400px]:w-full
+          lg:h-20 lg:gap-170 min-[100px]:w-100 min-[300px]:w-full
           ">
 
               <p>2026 Giants. All right reserved.</p>

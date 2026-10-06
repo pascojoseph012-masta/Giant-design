@@ -12,8 +12,8 @@ const ModelLink = ({ClosePopup, TalkOpen}) => {
             <div className="h-100 w-full  flex flex-col items-start gap-13 mt-10 px-5 ">
                 <Link to="/" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3" onClick={ClosePopup}>Home</Link>
                 <Link to="/Service" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3" onClick={ClosePopup}>Service</Link>
-                <Link to="/Service" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3">Our Work</Link>
-                <Link to="#" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3">About Us</Link>
+                <Link to="/Service" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3">Our Pertners</Link>
+                <Link to="#" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3">Our Carrer</Link>
             </div>
             <div className="px-3 w-full h-auto">
             <button type="button" onClick={TalkOpen} className="w-full h-15 border border-[#ec711e] backdrop-blur-2xl text-xl font-medium rounded-md mt-10 px-5">LET'S TALK</button>
