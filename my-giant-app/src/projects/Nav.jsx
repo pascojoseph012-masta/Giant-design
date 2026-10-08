@@ -9,14 +9,14 @@ import {Link} from "react-router-dom"
     
   return (
     <div className="text-white">
-        <div className="flex flex-row w-full h-18 fixed z-50 items-center justify-around  gap-25 bg-[#020202d7] 
+        <div className="flex flex-row w-full h-28 lg:h-18 fixed z-50 items-center justify-around  gap-25 bg-[#020202d7] 
       backdrop-blur-xl border-b border-y-zinc-800 
        sm:bg-amber sm:flex  sm:flex-row sm:gap-5 md:bg-blue md:flex md:gap-5
        lg:bg-amber lg:flex lg:flex-row  lg:justify-evenly lg:gap-0  xl:flex xl:flex-row  lg:backdrop-blur-xl lg:border-b lg:border-y-zinc-800
        sm:backdrop-blur-xl sm:border-b sm:border-y-zinc-800 md:backdrop-blur-xl md:border-b md:border-y-zinc-800 
        ">
 
-        <Link to="/"><div className="flex flex-row gap-3 w-50 items-center justify-center relative right-10 sm:relative sm:right-7 md:relative md:right-5 lg:relative lg:right-20 xl:relative xl:right-35 2xl:relative 2xl:right-45 "><img src={logo1} className="w-20" /> <p className="text-white font-semibold text-xl">Giants</p>  </div></Link>
+        <Link to="/"><div className="flex flex-row gap-3 w-50 items-center justify-center relative right-10 sm:relative sm:right-7 md:relative md:right-5 lg:relative lg:right-20 xl:relative xl:right-35 2xl:relative 2xl:right-45 "><img src={logo1} className="w-30 lg:w-20" /> <p className="text-white font-semibold text-xl min-[20px]:hidden lg:block">Giants</p>  </div></Link>
          <button type="button" onClick={OpenPopup} className="cursor-pointer flex items-center justify-center sm:hidden lg:hidden border h-9 w-9 rounded-full border-white"><img src={smbars} className="w-5 lg:hidden sm:hidden"/></button>
 
           <div className=" min-[20px]:hidden sm:relative sm:right-10  lg:flex lg:flex-row lg:gap-10 lg:items-center lg:justify-center lg:bg-transparent lg:h-14  lg:w-120 sm:flex 
