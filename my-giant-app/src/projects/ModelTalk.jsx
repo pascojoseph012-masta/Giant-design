@@ -6,7 +6,7 @@ import phone2 from '../assets/phone2.svg'
 const ModelTalk = ({TalkClose}) => {
   return (
     <div className="text-white">
-        <div onClick={TalkClose} className="w-full h-250 sm:h-300 fixed z-50 top-0 backdrop-blur-xl flex flex-col items-center px-3 
+        <div  className="w-full h-250 sm:h-300 fixed z-100 top-0 backdrop-blur-xl flex flex-col items-center px-3 
         sm:px-30 md:px-30 lg:px-110 xl:px-110 
         ">
             <div className="w-full h-140 rounded-2xl border-2 border-amber-800 bg-[#0f1011] backdrop-blur-2xl mt-20 sm:mt-50 lg:mt-20

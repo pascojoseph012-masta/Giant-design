@@ -5,7 +5,7 @@ import close from '../assets/close2.svg'
 const ModelLink = ({ClosePopup, TalkOpen}) => {
   return (
     <div className="text-white">
-        <div onClick={ClosePopup}  className="w-full h-250 fixed z-100 top-0 backdrop-blur-xl flex flex-col ">
+        <div   className="w-full h-250 fixed z-100 top-0 backdrop-blur-xl flex flex-col ">
             <div className="w-full h-15 flex items-end justify-end px-4 py-2 ">
                 <button type="button" onClick={ClosePopup} className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-white "><img src={close} className="w-5 object-cover " /></button>
             </div>
