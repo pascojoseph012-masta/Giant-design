@@ -24,6 +24,8 @@ import designi from "../../assets/designi.jpg"
 import sbranding from "../../assets/sbranding.jpeg" 
 import flatdesigning from "../../assets/flatdesigning.jpeg"
 import printing from "../../assets/printing.jpeg"
+import adobe from "../../assets/adobe.jpg"
+
 
 
 
@@ -48,11 +50,9 @@ const Service = () => {
         <div className="w-full h-full flex flex-col items-center justify-evenly gap-2  rounded-t-3xl sm:flex sm:items-start sm:justify-center lg:px-10">
           <p className="text-4xl font-medium px-3 text-center sm:text-left sm:text-5xl">Our Comprehensive</p>
           <p className="text-5xl font-medium px-3 text-center sm:text-left text-[#ec711e]">Visual Solution</p>
-          <h1 className="text-zinc-300 px-3 text-md py-3 sm:text-left lg:text-xl">GIANTS is Creative agency we are the one in the one who can help you to build your bussiness into visual dreams
-              that speaks volume we make brands . designing . photo editing . printing .bussiness cards .wedding envitaion 
-              and advertisement in the country the movement and growth of bussiness up to market to make fund are determined 
-              by us dont hold still came and see your self. 
-</h1>
+          <h1 className="text-zinc-300 px-3 text-md py-3 sm:text-left lg:text-xl">In the Hearts of city, the Country of 1000 Hills, where all the bussiness deals holds on.in the city center
+            There Is A Pioner Of Incredible And Customized Branding, Designing and Printint company ltd. The Company that maintain, Upgrade and retain the identity and stoy of  your Business brands Through Our Epic Branding, designing and Printing.
+              </h1>
         </div>
         <div className="w-full h-full flex items-center justify-around  rounded-b-3xl  sm:w-130 md:w-130 px-3 lg:w-full"><img src={robot} className="w-full h-full object-cover sm:w-80 sm:h-80 lg:w-100 lg:h-100" /></div>
        </div>
@@ -77,9 +77,9 @@ const Service = () => {
         ">
           {/* service card */}
           <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
-            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={photo} className="object-cover w-full h-full rounded-t-xl" /></div>
+            <div className="w-full h-80 lg:h-100 bg-amber-"><img src={adobe} className="object-cover w-full h-full rounded-t-xl" /></div>
             <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
-              <p className="text-5xl text-white font-medium">Photo Editing</p>
+              <p className="text-5xl text-white font-medium">Adobe Illustrator</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">professional photo retouching manipulation and enhencement service with reqiured expertise making the target expectation came alive</h1> 
             </div>
             <div className="flex flex-col items-start justify-around w-full h-full px-2">
@@ -203,7 +203,7 @@ const Service = () => {
           <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
             <div className="w-full h-80 lg:h-100 bg-amber-"><img src={envitation} className="object-cover w-full h-full rounded-t-xl" /></div>
             <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
-              <p className="text-5xl text-white font-medium">Invitation</p>
+              <p className="text-5xl text-white font-medium">Invitation Card</p>
                <h1 className="text-center text-lg font-semibold sm:px-4"> Set the tone for your big day with custom-tailored event stationery Modern, elegant, and unforgettable layouts for weddings, galas, and milestones. </h1> 
             </div>
             <div className="flex flex-col items-start justify-around w-full h-full px-2">

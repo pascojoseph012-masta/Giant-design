@@ -35,6 +35,10 @@ import phone from "../assets/phone.svg"
 import location from "../assets/location.svg"
 import email from "../assets/email.svg"
 import printing from "../assets/printing.jpeg"
+import logo1 from "../assets/logo1.jpeg"
+import logo2 from "../assets/logo2.jpeg"
+import adobe from "../assets/adobe.jpg"
+
 
 
 const Main = ({TalkOpen}) => {
@@ -51,7 +55,7 @@ const Main = ({TalkOpen}) => {
           ">
             <div className=" lg:w-120  h-full bg-indigo- md:h-100 sm:-100 mx-5 my-13 "> 
               
-              <p className="text-[#ec711e]">Giants of Design</p> 
+              <p className="text-[#ec711e]">Giant of Design</p> 
               <p className="text-5xl font-semibold">We Design.</p>
               <p className="text-5xl font-semibold">We Edit.</p>
               <p className="text-4xl font-semibold lg:text-5xl md:text-5xl ">We Elevate <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">Brands.</span></p>
@@ -100,8 +104,8 @@ const Main = ({TalkOpen}) => {
             ">
 
               <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2 sm:border-2 md:border-2  border border-zinc-800 rounded-md px-3 h-60 ">
-                <img src={camer1} className="w-25 rounded-2xl backdrop-opacity-15" />
-                <p className="text-lg text-[#ec711e] font-bold">Photo Editing</p>
+                <img src={adobe} className="w-25 rounded-2xl backdrop-opacity-15" />
+                <p className="text-lg text-[#ec711e] font-bold">Adobe Illustrator</p>
                 <h1 className="text-center text-white font-semibold  ">professional photo retouching manipulation and enhencement service</h1> 
               </div>
               
@@ -121,7 +125,7 @@ const Main = ({TalkOpen}) => {
               <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2 sm:border-2 md:border-2   border border-zinc-800 rounded-md px-3 h-60 ">
                 <img src={camer2} className="w-25 rounded-2xl backdrop-opacity-15" />
                 <p className="text-lg text-[#ec711e] font-bold">Printing</p>
-                <h1 className="text-center text-white font-semibold ">We make brands and writes on any thing from small businesses to big businesses</h1> 
+                <h1 className="text-center text-white font-semibold ">Premium print finishes including foil stamping, embossing, and luxury cardstocks</h1> 
               </div>
 
             </div>
@@ -235,11 +239,14 @@ const Main = ({TalkOpen}) => {
           <div className="w-full h-80 flex flex-col items-center justify-evenly px-3 border-b-2 border-zinc-800 lg:border-none
           min-[100px]:w-100 min-[300px]:w-full
           "> 
-            <img src={image2} className="w-full h-80 object-cover -z-10 absolute opacity-50 " />
+          <div className="w-full h-80 object-cover -z-10 absolute opacity-50  flex items-center justify-center">
+            <img src={logo1} className=" object-cover absolute opacity-200  sm:w-80 s m:h-80" />
+
+          </div>
               <p className="text-lg font-bold text-[#ec711e]">LET'S CREATE TOGETHER</p>
               <h1 className="text-white text-5xl font-bold text-center">Ready To Start Your Project?</h1>
-              <h1 className="text-gray-100 text-2sm font-bold text-center  sm:w-90">Bring Your ideas to life with a team that cares about your vision  Let's create something amazing together</h1>
-                <button type="button" onClick={TalkOpen} className=" cursor-pointer sm:w-90 w-full text-white text-xl font-semibold h-12 rounded-md backdrop-blur-xl bg-linear-to-r from-[#eb640aa6] to-[#ec403b] hover:bg-[#f16d14a6] ">LET'S TALK  &#8594;</button>
+              <h1 className="text-gray-100 text-2sm font-bold text-center  sm:w-90 min-[20px]:hidden">Bring Your ideas to life with a team that cares about your vision  Let's create something amazing together</h1>
+                <button type="button" onClick={TalkOpen} className=" sm:bg-amber  cursor-pointer sm:w-50 w-full text-white text-xl font-semibold h-12 rounded-md  border-2 border-[#ec711e] ">LET'S TALK  &#8594;</button>
 
           </div>
           {/* last section end */}
@@ -249,7 +256,7 @@ const Main = ({TalkOpen}) => {
            ">
             {/*footer cards start  */}
             <div className="w-full h-60 flex flex-col justify-evenly px-3 border-l border-zinc-800 lg:border-none">
-              <p className="bg-linear-to-r from-indigo-500 text-5xl  via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GAINTS.</p>
+              <p className="bg-linear-to-r from-indigo-500 text-5xl  via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GAINT.</p>
               <h1 className="text-left text-sm text-gray-100 font-bold w-70 ">We design. We edit. we elevate brands Turning creative ideas into powerful visual for modern businesses.</h1>
                 <div className="flex flex-row gap-10 sm:flex sm:gap-7  ">
                 <img src={facebook} className="w-16 rounded-full " />  
