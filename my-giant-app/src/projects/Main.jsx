@@ -152,7 +152,7 @@ const Main = ({TalkOpen}) => {
                     <p className="text-white text-xl font-bold">Photo Editing</p>
                     <h1 className="font-bold text-[15px]">Retouching . Manipulation . Enhencment</h1>
                   </div>
-                    <button type="button" className="w-10 h-10 group-hover:animate-bounce rounded-full relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                    <Link to="/Service" className="w-10 h-10 group-hover:animate-bounce rounded-full relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</Link>
                 </div>
               </div>
 
@@ -163,7 +163,7 @@ const Main = ({TalkOpen}) => {
                     <p className="text-white text-xl font-bold"> Designing</p>
                     <h1 className="font-bold text-[15px]">stunishing . Retouch . Digital</h1>
                   </div>
-                    <button type="button" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                    <Link to="/Service" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</Link>
                 </div>
               </div>
 
@@ -174,7 +174,7 @@ const Main = ({TalkOpen}) => {
                     <p className="text-white text-xl font-bold">Branding</p>
                     <h1 className="font-bold text-[15px]">logos. posters . Stories</h1>
                   </div>
-                    <button type="button" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                    <Link to="/Service" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</Link>
                 </div>
               </div>
 
@@ -185,7 +185,7 @@ const Main = ({TalkOpen}) => {
                     <p className="text-white text-xl font-bold">Printing</p>
                     <h1 className="font-bold text-[15px]">clothes . objects . furniture</h1>
                   </div>
-                    <button type="button" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</button>
+                    <Link to="/Service" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</Link>
                 </div>
               </div>
 
@@ -268,13 +268,12 @@ const Main = ({TalkOpen}) => {
 
             <div className=" w-full h-60 flex flex-col gap-5 px-3 border-l border-zinc-800 lg:border-none">
               <p className="text-white font-semibold text-xl">Quick Links</p>
-              <div className="flex flex-col mt-2 gap-2">
+              <div className="flex flex-col mt-2 gap-5">
                 
                 <Link to="/" className="text-white cursor-pointer font-semibold">Home</Link>
                 <Link to="/Service" className="text-white cursor-pointer font-semibold">Services</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">Our Work</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">About us</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">Contact Us</Link>
+                <Link to="#" className="text-white cursor-pointer font-semibold">Our Pertner</Link>
+                <Link to="#" className="text-white cursor-pointer font-semibold">Our Carrer</Link>
               </div>
 
             </div>
@@ -296,7 +295,13 @@ const Main = ({TalkOpen}) => {
               <div className="flex flex-col mt-2 gap-2">
                 <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={location} className="w-8" /> <p className="w-60">kigali . nyarugenge . rubangura plaza . Giants Studio</p> </div>
                 <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={email} className="w-8" /> <p className="w-60">Giants@gmail.com</p> </div>
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={phone} className="w-8" /> <p className="w-60">+250 788800555</p> </div>
+                <div className="w-full h-14 flex flex-row gap-2 items-start  ">
+               <div><img src={phone} className="w-8 mt-1" /></div>
+               <div className="flex flex-col   justify-center">
+                 <p className="w-60">+250 722705501</p>
+                 <p className="w-60">+250 786236112</p>
+               </div>
+                </div>
               </div>
 
             </div>

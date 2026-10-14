@@ -20,7 +20,7 @@ const ModelTalk = ({TalkClose}) => {
                     <h1 className="text-zinc-400 font-medium">Get in Touch Call us directly or send us email</h1>
                     <div className="flex flex-col gap-2 justify-center">
                         <p className="text-zinc-400 text-medium text-lg font-mono ">EMAIL</p>
-                        <h1 className="text-lg text-[#ec701eea] font-medium">GaintsDesign@gmail.com</h1>
+                        <h1 className="text-lg text-[#ec701eea] font-medium">giantdesign2022@gmail.com</h1>
                     </div>
                         <p className="text-zinc-400 text-medium text-lg font-mono relative top-7">PHONE</p>
 

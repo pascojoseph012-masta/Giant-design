@@ -31,7 +31,7 @@ import servicevid from "../../assets/servicevid.mp4"
 
 
 
-const Service = () => {
+const Service = ({TalkOpen}) => {
   return (
     <div>
       {/* main service */}
@@ -105,7 +105,7 @@ const Service = () => {
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60  flex items-center justify-center mb-4 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" onClick={TalkOpen} className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60  flex items-center justify-center mb-4 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
@@ -137,7 +137,7 @@ const Service = () => {
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex  items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl lg:text-xl  font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" onClick={TalkOpen} className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex  items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl lg:text-xl  font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
@@ -169,7 +169,7 @@ const Service = () => {
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" onClick={TalkOpen} className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
@@ -201,7 +201,7 @@ const Service = () => {
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" onClick={TalkOpen} className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
 
           <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
@@ -232,7 +232,7 @@ const Service = () => {
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" onClick={TalkOpen} className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
 
           <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
@@ -263,14 +263,14 @@ const Service = () => {
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60  flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" onClick={TalkOpen} className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60  flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
  
           {/* service card end*/}
         </div>
          {/* footer start */}
-          <div className="w-full h-300 flex flex-col mt-5 border-t border-zinc-800  gap-5 px-3 items-center justify-evenly sm:grid sm:grid-cols-2 sm:h-170 sm:gap-5 md:grid md:grid-cols-2 md:h-170 md:gap-5
-            lg:flex lg:flex-row lg:h-70 min-[100px]:w-100 min-[400px]:w-full
+          <div className="w-full h-300 flex flex-col  gap-5 px-3 items-center justify-evenly sm:grid sm:grid-cols-2 sm:h-170 sm:gap-5 md:grid md:grid-cols-2 md:h-170 md:gap-5
+            lg:flex lg:flex-row lg:h-70 min-[320px]:w-100 min-[400px]:w-full
            ">
             {/*footer cards start  */}
             <div className="w-full h-60 flex flex-col justify-evenly px-3 border-l border-zinc-800 lg:border-none">
@@ -286,13 +286,12 @@ const Service = () => {
 
             <div className=" w-full h-60 flex flex-col gap-5 px-3 border-l border-zinc-800 lg:border-none">
               <p className="text-white font-semibold text-xl">Quick Links</p>
-              <div className="flex flex-col mt-2 gap-2">
+              <div className="flex flex-col mt-2 gap-5">
                 
                 <Link to="/" className="text-white cursor-pointer font-semibold">Home</Link>
                 <Link to="/Service" className="text-white cursor-pointer font-semibold">Services</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">Our Work</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">About us</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">Contact Us</Link>
+                <Link to="#" className="text-white cursor-pointer font-semibold">Our Pertner</Link>
+                <Link to="#" className="text-white cursor-pointer font-semibold">Our Carrer</Link>
               </div>
 
             </div>
@@ -314,7 +313,13 @@ const Service = () => {
               <div className="flex flex-col mt-2 gap-2">
                 <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={location} className="w-8" /> <p className="w-60">kigali . nyarugenge . rubangura plaza . Giants Studio</p> </div>
                 <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={email} className="w-8" /> <p className="w-60">Giants@gmail.com</p> </div>
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={phone} className="w-8" /> <p className="w-60">+250 788800555</p> </div>
+                <div className="w-full h-14 flex flex-row gap-2 items-start  ">
+               <div><img src={phone} className="w-8 mt-1" /></div>
+               <div className="flex flex-col   justify-center">
+                 <p className="w-60">+250 722705501</p>
+                 <p className="w-60">+250 786236112</p>
+               </div>
+                </div>
               </div>
 
             </div>
@@ -329,7 +334,7 @@ const Service = () => {
           lg:h-20 lg:gap-170 min-[100px]:w-100 min-[300px]:w-full
           ">
 
-              <p>2026 Giant. All right reserved.</p>
+              <p>2026 Giants. All right reserved.</p>
               <div className="w-80 h-13 flex flex-row items-center justify-center  ">
                 <div className="w-full h-13 items-center flex justify-center border-r  border-zinc-800"><p className="font-semibold text-semibold text-lg">Privacy Policy</p></div>
                 <div className="w-full h-13 items-center flex justify-center lg:h-5 "><p className="font-semibold text-semibold text-lg ">Terms Of Service</p></div>

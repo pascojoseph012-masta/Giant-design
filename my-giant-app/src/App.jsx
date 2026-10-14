@@ -45,7 +45,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Main TalkOpen={TalkOpen}/>}/>
-        <Route path="/Service" element={<Service ClosePopup={ClosePopup}/>}/>
+        <Route path="/Service" element={<Service ClosePopup={ClosePopup} TalkOpen={TalkOpen}/>}/>
         <Route path="/Service" element={<Service ClosePopup={ClosePopup}/>}/>
        
       </Routes>
