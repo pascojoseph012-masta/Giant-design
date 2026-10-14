@@ -25,6 +25,7 @@ import sbranding from "../../assets/sbranding.jpeg"
 import flatdesigning from "../../assets/flatdesigning.jpeg"
 import printing from "../../assets/printing.jpeg"
 import adobe from "../../assets/adobe.jpg"
+import servicevid from "../../assets/servicevid.mp4"
 
 
 
@@ -54,7 +55,7 @@ const Service = () => {
             There Is A Pioner Of Incredible And Customized Branding, Designing and Printint company ltd. The Company that maintain, Upgrade and retain the identity and stoy of  your Business brands Through Our Epic Branding, designing and Printing.
               </h1>
         </div>
-        <div className="w-full h-full flex items-center justify-around  rounded-b-3xl  sm:w-130 md:w-130 px-3 lg:w-full"><img src={robot} className="w-full h-full object-cover sm:w-80 sm:h-80 lg:w-100 lg:h-100" /></div>
+        <div className="w-full h-full flex items-center justify-around  rounded-b-3xl  sm:w-130 md:w-130 px-3 lg:w-full"><video  src={servicevid} autoPlay loop muted controls className="w-full"></video></div>
        </div>
         </div>
         {/* landing service section end */}
@@ -79,7 +80,7 @@ const Service = () => {
           <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
             <div className="w-full h-80 lg:h-100 bg-amber-"><img src={adobe} className="object-cover w-full h-full rounded-t-xl" /></div>
             <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
-              <p className="text-5xl text-white font-medium">Adobe Illustrator</p>
+              <p className="text-5xl text-white font-medium sm:text-center">Adobe Illustrator</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">professional photo retouching manipulation and enhencement service with reqiured expertise making the target expectation came alive</h1> 
             </div>
             <div className="flex flex-col items-start justify-around w-full h-full px-2">
@@ -109,8 +110,9 @@ const Service = () => {
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
             <div className="w-full h-80 lg:h-100 bg-amber-"><img src={flatdesigning} className="object-cover w-full h-full rounded-t-xl" /></div>
-            <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
+            <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 lg:gap-3 ">
               <p className="text-5xl text-white font-medium">Designing</p>
+              <p className="text-xl text-white font-bold">UV DTF PRINTING machine</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">professional photo retouching manipulation and enhencement service with reqiured expertise making the target expectation came alive</h1> 
             </div>
             <div className="flex flex-col items-start justify-around w-full h-full px-2">
@@ -135,13 +137,14 @@ const Service = () => {
               </div>
 
             </div>
-            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
+            <button type="button" className="w-70 h-70 min-[320px]:h-60 min-[320px]:w-60 flex  items-center justify-center mb-5 hover:shadow-[#ec711e] hover:shadow-lx  rounded-full text-white text-2xl lg:text-xl  font-semibold cursor-pointer border border-[#ec711e] hover:backdrop-blur-3xl ">LET'S TALK <span className="relative left-5 text-4xl flex items-center justify-center">&#8594;</span> </button>
           </div>
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
             <div className="w-full h-80 lg:h-100 bg-amber-"><img src={printing} className="object-cover w-full h-full rounded-t-xl" /></div>
-            <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
+            <div className="flex flex-col items-center justify-evenly h-140  w-full gap-3 ">
               <p className="text-5xl text-white font-medium">Printing</p>
+              <p className="text-xl text-white font-bold">LARGE FORMAT machine</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">Premium print finishes including foil stamping, embossing, and luxury cardstocks No pixelation, no mistakes. Just crisp, high-resolution prints every time.</h1> 
             </div>
             <div className="flex flex-col items-start justify-around w-full h-full px-2">
@@ -171,8 +174,9 @@ const Service = () => {
 
            <div className="w-full h-210 rounded-xl flex flex-col items-center justify-start border border-zinc-700 shadow shadow-[#ec711e] bg-[#161618]">
             <div className="w-full h-80 lg:h-100 bg-amber-"><img src={sbranding} className="object-cover w-full h-full rounded-t-xl" /></div>
-            <div className="flex flex-col items-center justify-evenly h-140  w-full gap-5 ">
+            <div className="flex flex-col items-center justify-evenly h-140  w-full gap-3 ">
               <p className="text-5xl text-white font-medium">Branding</p>
+              <p className="text-xl text-white font-bold">OFFSET PRINTING machine</p>
                <h1 className="text-center text-lg font-semibold sm:px-4">professional photo retouching manipulation and enhencement service with reqiured expertise making the target expectation came alive</h1> 
             </div>
             <div className="flex flex-col items-start justify-around w-full h-full px-2">
@@ -270,7 +274,7 @@ const Service = () => {
            ">
             {/*footer cards start  */}
             <div className="w-full h-60 flex flex-col justify-evenly px-3 border-l border-zinc-800 lg:border-none">
-              <p className="bg-linear-to-r from-indigo-500 text-5xl  via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GAINTS.</p>
+              <p className="bg-linear-to-r from-indigo-500 text-5xl  via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GAINT.</p>
               <h1 className="text-left text-sm text-gray-100 font-bold w-70 ">We design. We edit. we elevate brands Turning creative ideas into powerful visual for modern businesses.</h1>
                 <div className="flex flex-row gap-10 sm:flex sm:gap-7  ">
                 <img src={facebook} className="w-16 rounded-full " />  
@@ -325,7 +329,7 @@ const Service = () => {
           lg:h-20 lg:gap-170 min-[100px]:w-100 min-[300px]:w-full
           ">
 
-              <p>2026 Giants. All right reserved.</p>
+              <p>2026 Giant. All right reserved.</p>
               <div className="w-80 h-13 flex flex-row items-center justify-center  ">
                 <div className="w-full h-13 items-center flex justify-center border-r  border-zinc-800"><p className="font-semibold text-semibold text-lg">Privacy Policy</p></div>
                 <div className="w-full h-13 items-center flex justify-center lg:h-5 "><p className="font-semibold text-semibold text-lg ">Terms Of Service</p></div>

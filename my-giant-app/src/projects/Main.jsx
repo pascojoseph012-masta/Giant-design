@@ -65,7 +65,7 @@ const Main = ({TalkOpen}) => {
 
               <div className="w-full h-40  flex flex-col items-start gap-5 md:flex md:flex-row  md:h-15 sm:flex sm:flex-row  sm:h-15 lg:w-100">
                 <button type="button" onClick={TalkOpen} className=" cursor-pointer w-full text-white text-xl font-semibold h-12 rounded-md backdrop-blur-xl bg-linear-to-r from-[#eb640aa6] to-[#ec403b] hover:bg-[#f16d14a6] ">LET'S TALK &#8594;</button>
-                <button type="button" className=" cursor-pointer w-full text-white text-xl font-semibold h-12 rounded-md  border border-white md:border-2 md:backdrop-blur-md">View Our Work</button>
+                <Link  to="/Service" className=" cursor-pointer w-full text-white text-xl flex items-center justify-center font-semibold h-12 rounded-md  border border-white md:border-2 md:backdrop-blur-md">View Our Service</Link>
               </div>
             
             </div>
@@ -198,8 +198,8 @@ const Main = ({TalkOpen}) => {
           lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0 lg:items-center lg:justify-center min-[100px]:w-100 min-[300px]:w-full
           ">
             <div className="h-50 bg-amber flex flex-col items-center justify-evenly lg:border-none sm:border-b rounded-4xl sm:border-zinc-800">
-               <p className="text-md font-bold text-[#ec711e]">WHY CHOOSE GIANTS?</p>
-               <h1 className="text-white text-5xl text-center font-bold">WHY CHOOSE <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GIANTS.</span> </h1>
+               <p className="text-md font-bold text-[#ec711e]">WHY CHOOSE GIANT?</p>
+               <h1 className="text-white text-5xl text-center font-bold">WHY CHOOSE <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GIANT.</span> </h1>
                <h1></h1>
             </div>
             
@@ -240,13 +240,13 @@ const Main = ({TalkOpen}) => {
           min-[100px]:w-100 min-[300px]:w-full
           "> 
           <div className="w-full h-80 object-cover -z-10 absolute opacity-50  flex items-center justify-center">
-            <img src={logo1} className=" object-cover absolute opacity-200  sm:w-80 s m:h-80" />
+            <img src={logo1} className=" object-cover absolute opacity-200  sm:w-80 s m:h-80 lg:w-100" />
 
           </div>
               <p className="text-lg font-bold text-[#ec711e]">LET'S CREATE TOGETHER</p>
               <h1 className="text-white text-5xl font-bold text-center">Ready To Start Your Project?</h1>
               <h1 className="text-gray-100 text-2sm font-bold text-center  sm:w-90 min-[20px]:hidden">Bring Your ideas to life with a team that cares about your vision  Let's create something amazing together</h1>
-                <button type="button" onClick={TalkOpen} className=" sm:bg-amber  cursor-pointer sm:w-50 w-full text-white text-xl font-semibold h-12 rounded-md  border-2 border-[#ec711e] ">LET'S TALK  &#8594;</button>
+                <button type="button" onClick={TalkOpen} className=" sm:bg-amber  cursor-pointer sm:w-50 w-50 text-white text-xl font-semibold h-12 rounded-md  border-2 border-[#ec711e] ">LET'S TALK  &#8594;</button>
 
           </div>
           {/* last section end */}
