@@ -16,7 +16,7 @@ import {Link} from "react-router-dom"
        sm:backdrop-blur-xl sm:border-b sm:border-y-zinc-800 md:backdrop-blur-xl md:border-b md:border-y-zinc-800 
        ">
 
-        <Link to="/"><div className="flex flex-row gap-3 w-50 items-center justify-center relative right-10 sm:relative sm:right-7 md:relative md:right-5 lg:relative lg:right-20 xl:relative xl:right-35 2xl:relative 2xl:right-45 "><img src={logo1} className="w-20 lg:w-20" /> <p className="text-white font-semibold text-xl min-[20px]:hidden lg:block">Giant</p>  </div></Link>
+        <Link to="/"><div className="flex flex-row gap-3 w-50 items-center justify-center relative right-15 sm:relative sm:right-7 md:relative md:right-5 lg:relative lg:right-20 xl:relative xl:right-35 2xl:relative 2xl:right-45 "><img src={logo1} className="w-20 lg:w-20" /> <p className="text-white font-semibold text-xl min-[20px]:hidden lg:block">Giant</p>  </div></Link>
          <button type="button" onClick={OpenPopup} className="cursor-pointer flex items-center justify-center sm:hidden lg:hidden border h-9 w-9 rounded-full border-white"><img src={smbars} className="w-5 lg:hidden sm:hidden"/></button>
     
           <div className=" min-[20px]:hidden sm:relative sm:right-10  lg:flex lg:flex-row lg:gap-10 lg:items-center lg:justify-center lg:bg-transparent lg:h-14  lg:w-120 sm:flex 
@@ -28,8 +28,8 @@ import {Link} from "react-router-dom"
 
             <Link to="/" className="min-[20px]:hidden md:block sm:block min-[1024px]:block lg:hover:border-b-3 lg:rounded-md lg:active:border-b-2 lg:active:rounded-2xl lg:transiton lg:duration-100 lg:linear lg:border-white lg:h-8 lg:w-15 lg:text-sm lg:flex items-center lg:justify-center  lg:font-bold ">Home</Link>
             <Link to="/Service" className="min-[20px]:hidden md:block sm:block min-[1024px]:block lg:hover:border-b-3 lg:rounded-md lg:active:border-b-2 lg:active:rounded-2xl lg:transiton lg:duration-100 lg:linear lg:border-white lg:h-8 lg:w-15 lg:text-sm lg:flex items-center lg:justify-center  lg:font-bold ">Service</Link>
-            <Link to="/Service" className="min-[20px]:hidden md:block sm:block min-[1024px]:block lg:hover:border-b-3 lg:rounded-md lg:active:border-b-2 lg:active:rounded-2xl lg:transiton lg:duration-100 lg:linear lg:border-white lg:h-8 lg:w-22 lg:text-sm lg:flex items-center lg:justify-center  lg:font-bold ">Our Pertners</Link>
-            <Link to="#" className="min-[20px]:hidden md:block sm:block min-[1024px]:block lg:hover:border-b-3 lg:rounded-md lg:active:border-b-2 lg:active:rounded-2xl lg:transiton lg:duration-100 lg:linear lg:border-white lg:h-8 lg:w-18 lg:text-sm lg:flex items-center lg:justify-center  lg:font-bold ">Our Carrer</Link>
+            <Link to="/Pertner" className="min-[20px]:hidden md:block sm:block min-[1024px]:block lg:hover:border-b-3 lg:rounded-md lg:active:border-b-2 lg:active:rounded-2xl lg:transiton lg:duration-100 lg:linear lg:border-white lg:h-8 lg:w-22 lg:text-sm lg:flex items-center lg:justify-center  lg:font-bold ">Our Pertners</Link>
+            <Link to="/Pertner" className="min-[20px]:hidden md:block sm:block min-[1024px]:block lg:hover:border-b-3 lg:rounded-md lg:active:border-b-2 lg:active:rounded-2xl lg:transiton lg:duration-100 lg:linear lg:border-white lg:h-8 lg:w-18 lg:text-sm lg:flex items-center lg:justify-center  lg:font-bold ">Our Carrer</Link>
                 
           </div>
           <button type="button" onClick={TalkOpen} className="min-[20px]:hidden sm:relative sm:right-5 lg:block lg:w-40 lg:cursor-pointer lg:bg-transparent  lg:rounded-sm lg:h-10 lg:border lg:border-[#ec711e] lg:text-[14px]

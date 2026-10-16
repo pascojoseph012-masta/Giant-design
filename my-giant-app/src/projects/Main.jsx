@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from "react-router-dom"
+import { motion, useAnimationControls, useInView, AnimatePresence, } from "framer-motion";
 import logo from "../assets/vite.svg";
 import smbars from "../assets/smbars.svg";
 import image1 from "../assets/first-image.png"
@@ -38,10 +39,14 @@ import printing from "../assets/printing.jpeg"
 import logo1 from "../assets/logo1.jpeg"
 import logo2 from "../assets/logo2.jpeg"
 import adobe from "../assets/adobe.jpg"
+import { Content } from "../assets/slide"
+
 
 
 
 const Main = ({TalkOpen}) => {
+  const [Index, setIndex] = useState (0)
+  const duplicateContent = [...Content, ...Content]
   return (
     
       <div className="text-white">
@@ -51,7 +56,7 @@ const Main = ({TalkOpen}) => {
         <div className="w-full h-300   absolute top-15">
           {/* landa holder */}
           <div className="w-full h-200 bg-amber flex flex-col md:bg-amber-  md:w-full md:h-120 md:flex md:flex-row sm:bg-amber 
-           sm:w-full sm:h-120 sm:flex sm:flex-row min-[100px]:w-100 min-[300px]:w-full
+           sm:w-full sm:h-120 sm:flex sm:flex-row min-[100px]:w-100 min-[400px]:w-full
           ">
             <div className=" lg:w-120  h-full bg-indigo- md:h-100 sm:-100 mx-5 my-13 "> 
               
@@ -59,8 +64,7 @@ const Main = ({TalkOpen}) => {
               <p className="text-5xl font-semibold">We Design.</p>
               <p className="text-5xl font-semibold">We Edit.</p>
               <p className="text-4xl font-semibold lg:text-5xl md:text-5xl ">We Elevate <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">Brands.</span></p>
-              <h1 className="w-full my-5 lg:w-100">Giants is a creative graphic design and photo editing company that helps businesses stand there with powerfull
-                visuals.
+              <h1 className="w-full my-5 lg:w-100">Giant The company that maintain Upgrade and Retain the Identity and story of your bussiness brand
               </h1>
 
               <div className="w-full h-40  flex flex-col items-start gap-5 md:flex md:flex-row  md:h-15 sm:flex sm:flex-row  sm:h-15 lg:w-100">
@@ -76,21 +80,83 @@ const Main = ({TalkOpen}) => {
             </div>
           </div>
           {/* continue sliding section */}
+             {/* sliding log start */}
+      <div className="w-full h-45 bg-[#000000f8] flex flex-row overflow-hidden  items-center justify-center mt-0
+       min-[100px]:w-100 min-[400px]:w-full
+      ">
+       <div className="w-full h-30 items-center justify-center  flex">
+        <motion.div
+        animate={{x: ["0%", "-100%"]}}
+        transition={{
+                duration: "35",
+                ease: "linear",
+                repeat: Infinity,
+                repeatType: "loop",
+                type: "tween",
+               
+              }}
+        className="flex flex-row gap-5 bg-[#101011ee]  h-50 items-center justify-center place-content-center"
+        >
+          {duplicateContent.map((Content, Index) => {
+            return(
+              <div key={`${Content.id}-${Content.id}`}>
+                <img src={Content.image} className="max-w-70 object-cover" />
+              </div>
+            )
+          })}
+        </motion.div>
 
-          <div className="w-full h-25 bg-[#101011ee] backdrop-grayscale-50 sm:relative sm:bottom-0 md:relative md:bottom-0 lg:relative lg:bottom-0 xl:relative xl:bottom-0 2xl:relative 2xl:bottom-0  relative bottom-5  flex flex-row items-center justify-center wrap-normal gap-5 overflow-hidden 
-          min-[100px]:w-100 min-[300px]:w-full
-          ">
-            <div className="h-full px-4 animate-pulse animate-x-spin w-full flex flex-row items-center justify-around wrap-normal gap-5 overflow-hidden">
-            <img src={slide1} alt="" />
-            <img src={slide2} alt="" />
-            <img src={slide3} alt="" />
-            <img src={slide4} alt="" />
-            </div>
+         <motion.div
+        animate={{x: ["0%", "-100%"]}}
+        transition={{
+                duration: "35",
+                ease: "linear",
+                repeat: Infinity,
+                repeatType: "loop",
+                type: "tween",
+               
+              }}
+        className="flex flex-row gap-5 bg-[#101011ee] h-50 items-center justify-center place-content-center"
+        >
+          {duplicateContent.map((Content, Index) => {
+            return(
+              <div key={`${Content.id}-${Content.id}`}>
+                <img src={Content.image} className="max-w-70 object-cover" />
+              </div>
+            )
+          })}
+        </motion.div>
 
-          </div>
+           <motion.div
+        animate={{x: ["0%", "-100%"]}}
+        transition={{
+                duration: "35",
+                ease: "linear",
+                repeat: Infinity,
+                repeatType: "loop",
+                type: "tween",
+               
+              }}
+        className="flex flex-row gap-5 bg-[#101011ee] h-50 items-center justify-center place-content-center"
+        >
+          {duplicateContent.map((Content, Index) => {
+            return(
+              <div key={`${Content.id}-${Content.id}`}>
+                <img src={Content.image} className="max-w-70 object-cover" />
+              </div>
+            )
+          })}
+        </motion.div>
+        
+       </div>
+
+  
+      </div>
+       {/* sliding log end */}
+          
           {/* continue service section */}
           <div className="w-full h-330 flex flex-col border-b border-zinc-800 items-start justify-start px-4 bg-slate sm:h-200 md:border-b md:border-zinc-600 md:h-190
-          lg: lg:h-120 min-[100px]:w-100 min-[300px]:w-full
+          lg: lg:h-120 min-[100px]:w-100 min-[400px]:w-full
           ">
             <div className="h-60 w-full  bg-slate flex flex-col items-center justify-center gap-3">
               <h1 className="text-l text-[#ec711e] font-bold ">WHAT WE DO</h1>
@@ -132,7 +198,7 @@ const Main = ({TalkOpen}) => {
           </div>
           {/* Our work section */}
           <div className="w-full h-480 bg-slate flex flex-col px-3 2xl:px-15 mt-15 sm:h-270 md:h-270 border-b border-zinc-800 
-          min-[100px]:w-100 min-[300px]:w-full
+          min-[100px]:w-100 min-[400px]:w-full
           ">
             <div className="h-55 bg-amber flex flex-col items-center justify-start gap-2">
                <p className="text-lg text-[#ec711e] font-bold">OUR WORK</p>
@@ -195,7 +261,7 @@ const Main = ({TalkOpen}) => {
           </div>
           {/* why section continue */}
           <div className="w-full h-200 border-b border-zinc-800 px-3 flex flex-col gap-5 mt-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2
-          lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0 lg:items-center lg:justify-center min-[100px]:w-100 min-[300px]:w-full
+          lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0 lg:items-center lg:justify-center min-[100px]:w-100 min-[400px]:w-full
           ">
             <div className="h-50 bg-amber flex flex-col items-center justify-evenly lg:border-none sm:border-b rounded-4xl sm:border-zinc-800">
                <p className="text-md font-bold text-[#ec711e]">WHY CHOOSE GIANT?</p>
@@ -237,7 +303,7 @@ const Main = ({TalkOpen}) => {
           {/* why section end */}
           {/* last section start */}
           <div className="w-full h-80 flex flex-col items-center justify-evenly px-3 border-b-2 border-zinc-800 lg:border-none
-          min-[100px]:w-100 min-[300px]:w-full
+          min-[100px]:w-100 min-[400px]:w-full
           "> 
           <div className="w-full h-80 object-cover -z-10 absolute opacity-50  flex items-center justify-center">
             <img src={logo1} className=" object-cover absolute opacity-200  sm:w-80 s m:h-80 lg:w-100" />
@@ -251,8 +317,8 @@ const Main = ({TalkOpen}) => {
           </div>
           {/* last section end */}
           {/* footer start */}
-          <div className="w-full h-300 flex flex-col  gap-5 px-3 items-center justify-evenly sm:grid sm:grid-cols-2 sm:h-170 sm:gap-5 md:grid md:grid-cols-2 md:h-170 md:gap-5
-            lg:flex lg:flex-row lg:h-70 min-[320px]:w-100 min-[400px]:w-full
+          <div className="w-full h-300 flex flex-col  border-stone-900 border-t  gap-5 px-3 items-center justify-evenly sm:grid sm:grid-cols-2 sm:h-170 sm:gap-5 md:grid md:grid-cols-2 md:h-170 md:gap-5
+            lg:flex lg:flex-row lg:h-70 min-[100px]:w-100 min-[400px]:w-full
            ">
             {/*footer cards start  */}
             <div className="w-full h-60 flex flex-col justify-evenly px-3 border-l border-zinc-800 lg:border-none">
@@ -313,7 +379,7 @@ const Main = ({TalkOpen}) => {
           {/* footer end */}
           <div className="px-3">
           <div className="w-full h-60 flex flex-col justify-around items-center border-t border-zinc-800 px-3 sm:flex sm:flex-row sm:gap-20 sm:h-35 md:h-30
-          lg:h-20 lg:gap-170 min-[100px]:w-100 min-[300px]:w-full
+          lg:h-20 lg:gap-170 min-[100px]:w-95 min-[400px]:w-full
           ">
 
               <p>2026 Giants. All right reserved.</p>

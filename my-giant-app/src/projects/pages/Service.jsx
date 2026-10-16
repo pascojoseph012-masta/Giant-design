@@ -35,9 +35,9 @@ const Service = ({TalkOpen}) => {
   return (
     <div>
       {/* main service */}
-      <div className="w-full h-  bg-[#000000f8] relative top-15 text-white bg-amber min-[100px]:w-100 min-[300px]:w-full">
+      <div className="w-full h-  bg-[#000000f8] relative top-15 text-white bg-amber min-[100px]:w-100 min-[400px]:w-full">
         <div className="w-full flex flex-col px-3 items-center justify-around bg-slate h-250  sm:flex sm:place-items-start  sm:justify-start  sm:h-140 
-        2xl:px-15 lg:px-15 xl:px-15 2xl: min-[100px]:w-100 min-[300px]:w-full
+        2xl:px-15 lg:px-15 xl:px-15 2xl: min-[100px]:w-100 min-[400px]:w-full
         "> 
         {/* lading service section */}
         
@@ -55,7 +55,7 @@ const Service = ({TalkOpen}) => {
             There Is A Pioner Of Incredible And Customized Branding, Designing and Printint company ltd. The Company that maintain, Upgrade and retain the identity and stoy of  your Business brands Through Our Epic Branding, designing and Printing.
               </h1>
         </div>
-        <div className="w-full h-full flex items-center justify-around  rounded-b-3xl  sm:w-130 md:w-130 px-3 lg:w-full"><video  src={servicevid} autoPlay loop muted controls className="w-full"></video></div>
+        <div className="w-full h-full flex items-center justify-around  rounded-b-3xl  sm:w-130 md:w-130 px-3 lg:w-full"><video  src={servicevid} autoPlay loop muted controls className="w-full rounded-xl shadow-[#ec701ed5] border border-[#ec701ed5] "></video></div>
        </div>
         </div>
         {/* landing service section end */}

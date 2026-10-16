@@ -9,6 +9,8 @@ import ScrollToTop from './projects/ScrollToTop';
 import Muchad from './learn/Muchad';
 import ModelLink from './projects/ModelLink'
 import ModelTalk from './projects/ModelTalk'
+import Pertner from './projects/pages/Pertner'
+import Carrer from './projects/pages/Carrer'
 
 
 
@@ -46,7 +48,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Main TalkOpen={TalkOpen}/>}/>
         <Route path="/Service" element={<Service ClosePopup={ClosePopup} TalkOpen={TalkOpen}/>}/>
-        <Route path="/Service" element={<Service ClosePopup={ClosePopup}/>}/>
+        <Route path="/Pertner" element={<Pertner  TalkOpen={TalkOpen}/>}/>
+        <Route path="/Carrer" element={<Carrer/>}/>
        
       </Routes>
      
