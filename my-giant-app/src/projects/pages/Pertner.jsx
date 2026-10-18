@@ -44,8 +44,8 @@ const Pertner = ({TalkOpen}) => {
         <div className="w-full h-18 flex items-center justify-center bg-slate"><p className="text-5xl text-white text-center font-bold">Our Pertners</p></div>
        {/* card container */}
       <div className="flex flex-col items-start justify-start gap-5 mt-6 border-zinc-800 border-b  w-full h-450  bg-[#080808d7] group px-3 
-      sm:grid sm:grid-cols-2 sm:items-center sm:justify-start sm:gap-5
-      md:grid md:grid-cols-2 md:items-center md:justify-start md:gap-5
+      sm:grid sm:grid-cols-2 sm:items-center sm:justify-start sm:gap-5 sm:h-auto
+      md:grid md:grid-cols-2 md:items-center md:justify-start md:gap-5 mdsz
       lg:grid lg:grid-cols-2 lg:items-center lg:justify-start lg:gap-5 lg:px-10
       
       ">
@@ -57,7 +57,7 @@ const Pertner = ({TalkOpen}) => {
          <div className="w-full h-60 lg:h-100 rounded-xl bg-[#101011ee] overflow-hidden flex items-center justify-center"> <img src={pertner6} className="w-full h-full lg:hover:scale-101 transition cursor-pointer  duration-100 ease-in-out lg:object-center  object-center" /> </div>
          <div className="w-full h-60 lg:h-100 rounded-xl bg-[#101011ee] overflow-hidden flex items-center justify-center"> <img src={pertner7} className="w-full h-full lg:hover:scale-101 transition cursor-pointer  duration-100 ease-in-out lg:object-center  object-center" /> </div>
          <div className="w-full h-60 lg:h-100 rounded-xl bg-[#101011ee] overflow-hidden flex items-center justify-center"> <img src={pertner8} className="w-full h-full lg:hover:scale-101 transition cursor-pointer  duration-100 ease-in-out lg:object-cover  object-cover" /> </div>
-         <div className="w-full h-60 lg:h-100 rounded-xl bg-[#101011ee] overflow-hidden flex items-center justify-center"> <img src={logo1} className="w-full h-full ob lg:hover:scale-101 transition cursor-pointer  duration-100 ease-in-out ject-cover lg:object-fill   " /> </div>
+         <div className="w-full h-60 lg:h-100 rounded-xl bg-[#101011ee] overflow-hidden flex items-center justify-center"> <img src={pertner3} className="w-full h-full ob lg:hover:scale-101 transition cursor-pointer  duration-100 ease-in-out object-cover lg:object-fill   " /> </div>
       </div>
       
        {/* card container */}

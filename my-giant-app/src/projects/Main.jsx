@@ -60,9 +60,16 @@ const Main = ({TalkOpen}) => {
           ">
             <div className=" lg:w-120  h-full bg-indigo- md:h-100 sm:-100 mx-5 my-13 "> 
               
-              <p className="text-[#ec711e]">Giant of Design</p> 
+              <motion.p
+              initial={{x: -100}}
+              animate={{x: 0}}
+              transition={{
+                duration: 1.5,
+                type: "spring"
+              }}
+               className="text-[#ec711e]">Giant of Design</motion.p> 
               <p className="text-5xl font-semibold">We Design.</p>
-              <p className="text-5xl font-semibold">We Edit.</p>
+              <p className="text-5xl font-semibold">We Print.</p>
               <p className="text-4xl font-semibold lg:text-5xl md:text-5xl ">We Elevate <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">Brands.</span></p>
               <h1 className="w-full my-5 lg:w-100">Giant The company that maintain Upgrade and Retain the Identity and story of your bussiness brand
               </h1>
@@ -82,13 +89,13 @@ const Main = ({TalkOpen}) => {
           {/* continue sliding section */}
              {/* sliding log start */}
       <div className="w-full h-45 bg-[#000000f8] flex flex-row overflow-hidden  items-center justify-center mt-0
-       min-[100px]:w-100 min-[400px]:w-full
+       min-[100px]:w-100 min-[400px]:w-full 
       ">
        <div className="w-full h-30 items-center justify-center  flex">
         <motion.div
         animate={{x: ["0%", "-100%"]}}
         transition={{
-                duration: "35",
+                duration: "50",
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "loop",
@@ -109,7 +116,7 @@ const Main = ({TalkOpen}) => {
          <motion.div
         animate={{x: ["0%", "-100%"]}}
         transition={{
-                duration: "35",
+                duration: "50",
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "loop",
@@ -130,7 +137,7 @@ const Main = ({TalkOpen}) => {
            <motion.div
         animate={{x: ["0%", "-100%"]}}
         transition={{
-                duration: "35",
+                duration: "50",
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "loop",
@@ -155,7 +162,12 @@ const Main = ({TalkOpen}) => {
        {/* sliding log end */}
           
           {/* continue service section */}
-          <div className="w-full h-330 flex flex-col border-b border-zinc-800 items-start justify-start px-4 bg-slate sm:h-200 md:border-b md:border-zinc-600 md:h-190
+          <motion.div 
+          initial={{scale: 0.7, opacity: 0}}
+          whileInView={{opacity: 1, scale: 1}}
+          transition={{ duration: 1.10, type: "spring", }}
+          
+          className="w-full h-330 flex flex-col border-b border-zinc-800 items-start justify-start px-4 bg-slate sm:h-200 md:border-b md:border-zinc-600 md:h-190
           lg: lg:h-120 min-[100px]:w-100 min-[400px]:w-full
           ">
             <div className="h-60 w-full  bg-slate flex flex-col items-center justify-center gap-3">
@@ -195,7 +207,7 @@ const Main = ({TalkOpen}) => {
               </div>
 
             </div>
-          </div>
+          </motion.div>
           {/* Our work section */}
           <div className="w-full h-480 bg-slate flex flex-col px-3 2xl:px-15 mt-15 sm:h-270 md:h-270 border-b border-zinc-800 
           min-[100px]:w-100 min-[400px]:w-full
