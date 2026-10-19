@@ -49,7 +49,7 @@ const ModelTalk = ({TalkClose}) => {
 
                     <div className="flex flex-col items-start gap-3">
                         <p className="text-zinc-400 text-bold text-lg font-mono">ADDRESS</p>
-                        <h1>Kigali Nyarugenge rubangura plaza</h1>
+                        <h1>Kigali Nyarugenge rubangura House</h1>
 
                     </div>
 

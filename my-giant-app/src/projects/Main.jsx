@@ -36,10 +36,13 @@ import phone from "../assets/phone.svg"
 import location from "../assets/location.svg"
 import email from "../assets/email.svg"
 import printing from "../assets/printing.jpeg"
+import sbranding from "../assets/sbranding.jpeg" 
 import logo1 from "../assets/logo1.jpeg"
 import logo2 from "../assets/logo2.jpeg"
 import adobe from "../assets/adobe.jpg"
 import { Content } from "../assets/slide"
+import bottle from "../assets/bottles.jpeg"
+import cup from "../assets/cups.jpeg"
 
 
 
@@ -62,14 +65,30 @@ const Main = ({TalkOpen}) => {
               
               <motion.p
               initial={{x: -100}}
-              animate={{x: 0}}
+              whileInView={{x: 0}}
+              transition={{
+                duration: 2,
+                type: "spring"
+              }}
+               className="text-[#ec711e]">Giant of Design</motion.p> 
+              <motion.p 
+
+               initial={{x: -100}}
+              whileInView={{x: 0}}
               transition={{
                 duration: 1.5,
                 type: "spring"
               }}
-               className="text-[#ec711e]">Giant of Design</motion.p> 
-              <p className="text-5xl font-semibold">We Design.</p>
-              <p className="text-5xl font-semibold">We Print.</p>
+              
+              className="text-5xl font-semibold">We Design.</motion.p>
+              <motion.p 
+              
+               initial={{x: -100}}
+              whileInView={{x: 0}}
+              transition={{
+                duration: 1,
+                type: "spring"
+              }}className="text-5xl font-semibold">We Print.</motion.p>
               <p className="text-4xl font-semibold lg:text-5xl md:text-5xl ">We Elevate <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">Brands.</span></p>
               <h1 className="w-full my-5 lg:w-100">Giant The company that maintain Upgrade and Retain the Identity and story of your bussiness brand
               </h1>
@@ -163,9 +182,6 @@ const Main = ({TalkOpen}) => {
           
           {/* continue service section */}
           <motion.div 
-          initial={{scale: 0.7, opacity: 0}}
-          whileInView={{opacity: 1, scale: 1}}
-          transition={{ duration: 1.10, type: "spring", }}
           
           className="w-full h-330 flex flex-col border-b border-zinc-800 items-start justify-start px-4 bg-slate sm:h-200 md:border-b md:border-zinc-600 md:h-190
           lg: lg:h-120 min-[100px]:w-100 min-[400px]:w-full
@@ -195,13 +211,13 @@ const Main = ({TalkOpen}) => {
               </div>
 
               <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2  sm:border-2 md:border-2  border border-zinc-800 rounded-md px-3 h-60 ">
-                <img src={brandi} className="w-25 rounded-2xl backdrop-opacity-15 " />
+                <img src={sbranding} className="w-25 h-18 rounded-2xl backdrop-opacity-15 " />
                 <p className="text-lg text-[#ec711e] font-bold">Branding</p>
                 <h1 className="text-center text-white font-semibold  ">We make brands and writes on any thing from small businesses to big businesses</h1> 
               </div>
 
               <div className="flex flex-col gap- items-center justify-evenly bg-[#0f1011]  py-2 sm:border-2 md:border-2   border border-zinc-800 rounded-md px-3 h-60 ">
-                <img src={camer2} className="w-25 rounded-2xl backdrop-opacity-15" />
+                <img src={printing} className="w-25 rounded-2xl backdrop-opacity-15" />
                 <p className="text-lg text-[#ec711e] font-bold">Printing</p>
                 <h1 className="text-center text-white font-semibold ">Premium print finishes including foil stamping, embossing, and luxury cardstocks</h1> 
               </div>
@@ -224,10 +240,10 @@ const Main = ({TalkOpen}) => {
             ">
               {/* card */}
               <div className=" border bg-[#0f1011] group border-zinc-800 flex flex-col h-100 w-full  ">
-                <div className="w-full h-85 overflow-hidden "> <img src={photo} className="w-full h-75 object-cover group-hover:scale-105 transition duration-500 ease-in-out " /> </div>
+                <div className="w-full h-85 overflow-hidden "> <img src={bottle} className="w-full h-75 object-cover group-hover:scale-105 transition duration-500 ease-in-out " /> </div>
                 <div className="w-full h-30 lg:h-25 bg-amber flex flex-row items-end justify-around lg:justify-normal px-2 py-2">
                   <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around lg:w-150 xl:w-150 px-2 flex flex-col">
-                    <p className="text-white text-xl font-bold">Photo Editing</p>
+                    <p className="text-white text-xl font-bold">WaterBottles Brand</p>
                     <h1 className="font-bold text-[15px]">Retouching . Manipulation . Enhencment</h1>
                   </div>
                     <Link to="/Service" className="w-10 h-10 group-hover:animate-bounce rounded-full relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</Link>
@@ -235,7 +251,7 @@ const Main = ({TalkOpen}) => {
               </div>
 
               <div className=" border bg-[#0f1011] group border-zinc-800 flex flex-col h-100 w-full">
-                <div className="w-full h-85 overflow-hidden"> <img src={photo1} className="w-full h-75 object-cover group-hover:scale-105 transition duration-300 ease-in-out" /> </div>
+                <div className="w-full h-85 overflow-hidden"> <img src={cup} className="w-full h-75 object-cover group-hover:scale-105 transition duration-300 ease-in-out" /> </div>
                 <div className="w-full h-30 lg:h-25 bg-amber flex flex-row items-end justify-  px-2 py-2">
                   <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around w-75 lg:w-150 xl:w-150  px-2 flex flex-col">
                     <p className="text-white text-xl font-bold"> Designing</p>
@@ -250,7 +266,7 @@ const Main = ({TalkOpen}) => {
                 <div className="w-full h-30 lg:h-25 bg-amber flex flex-row items-end justify-  px-2 py-2">
                   <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around w-75 lg:w-150 xl:w-150  px-2 flex flex-col">
                     <p className="text-white text-xl font-bold">Branding</p>
-                    <h1 className="font-bold text-[15px]">logos. posters . Stories</h1>
+                    <h1 className="font-bold text-[15px]">Mugs. Pens . WaterBottles . Office Materials</h1>
                   </div>
                     <Link to="/Service" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</Link>
                 </div>
@@ -261,7 +277,7 @@ const Main = ({TalkOpen}) => {
                 <div className="w-full h-30 lg:h-25 bg-amber flex flex-row items-end justify-  px-2 py-2">
                   <div className="border-l-5 border-[#ec711e] h-20 bg-amber justify-around w-75 lg:w-150 xl:w-150 px-2 flex flex-col">
                     <p className="text-white text-xl font-bold">Printing</p>
-                    <h1 className="font-bold text-[15px]">clothes . objects . furniture</h1>
+                    <h1 className="font-bold text-[15px]">InviceBooks . T-Shirt . PaperCrafted . Benners</h1>
                   </div>
                     <Link to="/Service" className="w-10 h-10 rounded-full group-hover:animate-bounce relative bottom-5 border border-[#ec711e] text-2xl cursor-pointer flex itmes-center justify-center">&#8594;</Link>
                 </div>
@@ -272,13 +288,37 @@ const Main = ({TalkOpen}) => {
             </div>
           </div>
           {/* why section continue */}
-          <div className="w-full h-200 border-b border-zinc-800 px-3 flex flex-col gap-5 mt-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2
+          <div className="w-full h-200 border-b border-zinc-800 px-3 flex flex-col gap-4 mt-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2
           lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0 lg:items-center lg:justify-center min-[100px]:w-100 min-[400px]:w-full
           ">
             <div className="h-50 bg-amber flex flex-col items-center justify-evenly lg:border-none sm:border-b rounded-4xl sm:border-zinc-800">
-               <p className="text-md font-bold text-[#ec711e]">WHY CHOOSE GIANT?</p>
-               <h1 className="text-white text-5xl text-center font-bold">WHY CHOOSE <span className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent">GIANT.</span> </h1>
-               <h1></h1>
+               <motion.p 
+                initial={{x: -100}}
+              whileInView={{x: 0}}
+              transition={{
+                duration: 2,
+                type: "spring"
+              }}
+               className="text-md font-bold text-[#ec711e]">WHY CHOOSE GIANT?</motion.p>
+               <motion.h1 
+
+                initial={{x: -100}}
+                whileInView={{x: 0}}
+                transition={{
+                duration: 1.5,
+                type: "spring"
+              }}
+               
+               className="text-white text-5xl text-center font-semibold  w-100">WHY CHOOSE  </motion.h1>
+                <motion.span 
+                 initial={{x: -100}}
+                whileInView={{x: 0}}
+                transition={{
+                duration: 1,
+                type: "spring"
+              }}
+                className="bg-linear-to-r from-indigo-500 via-[#f35c14] to-[#ec701ea6] bg-clip-text text-transparent text-5xl">GIANT.</motion.span>
+               
             </div>
             
               <div className="h-50 flex flex-col border-r-2 border-zinc-800 sm:border-r sm:border-zinc-800 lg:py-5 lg:h-30 lg:items-center lg:justify-center  ">
@@ -350,7 +390,7 @@ const Main = ({TalkOpen}) => {
                 
                 <Link to="/" className="text-white cursor-pointer font-semibold">Home</Link>
                 <Link to="/Service" className="text-white cursor-pointer font-semibold">Services</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">Our Pertner</Link>
+                <Link to="/Pertner" className="text-white cursor-pointer font-semibold">Our Pertner</Link>
                 <Link to="#" className="text-white cursor-pointer font-semibold">Our Carrer</Link>
               </div>
 
@@ -358,8 +398,7 @@ const Main = ({TalkOpen}) => {
 
               <div className=" w-full h-60 flex flex-col gap-5  px-3 border-l border-zinc-800 lg:border-none">
               <p className="text-white font-semibold text-xl">Services</p>
-              <div className="flex flex-col mt-2 gap-2">
-                <p>Photo Editing</p>
+              <div className="flex flex-col mt-2 gap-5">
                 <p>Graphic Design</p>
                 <p>Branding</p>
                 <p>Design</p>
@@ -371,8 +410,8 @@ const Main = ({TalkOpen}) => {
             <div className=" w-full h-60 flex flex-col gap-5  px-3 border-l border-zinc-800 lg:border-none ">
               <p className="text-white font-semibold text-xl">Get in Touch</p>
               <div className="flex flex-col mt-2 gap-2">
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={location} className="w-8" /> <p className="w-60">kigali . nyarugenge . rubangura plaza . Giants Studio</p> </div>
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={email} className="w-8" /> <p className="w-60">Giants@gmail.com</p> </div>
+                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={location} className="w-8" /> <p className="w-60">kigali . nyarugenge . rubangura House . Giants Studio</p> </div>
+                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={email} className="w-8" /> <p className="w-60">giantdesign2022@gmail.com</p> </div>
                 <div className="w-full h-14 flex flex-row gap-2 items-start  ">
                <div><img src={phone} className="w-8 mt-1" /></div>
                <div className="flex flex-col   justify-center">

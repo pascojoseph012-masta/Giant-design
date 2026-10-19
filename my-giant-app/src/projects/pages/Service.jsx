@@ -290,7 +290,7 @@ const Service = ({TalkOpen}) => {
                 
                 <Link to="/" className="text-white cursor-pointer font-semibold">Home</Link>
                 <Link to="/Service" className="text-white cursor-pointer font-semibold">Services</Link>
-                <Link to="#" className="text-white cursor-pointer font-semibold">Our Pertner</Link>
+                <Link to="/pertner" className="text-white cursor-pointer font-semibold">Our Pertner</Link>
                 <Link to="#" className="text-white cursor-pointer font-semibold">Our Carrer</Link>
               </div>
 
@@ -298,8 +298,7 @@ const Service = ({TalkOpen}) => {
 
               <div className=" w-full h-60 flex flex-col gap-5  px-3 border-l border-zinc-800 lg:border-none">
               <p className="text-white font-semibold text-xl">Services</p>
-              <div className="flex flex-col mt-2 gap-2">
-                <p>Photo Editing</p>
+              <div className="flex flex-col mt-2 gap-5">
                 <p>Graphic Design</p>
                 <p>Branding</p>
                 <p>Design</p>
@@ -311,8 +310,8 @@ const Service = ({TalkOpen}) => {
             <div className=" w-full h-60 flex flex-col gap-5  px-3 border-l border-zinc-800 lg:border-none ">
               <p className="text-white font-semibold text-xl">Get in Touch</p>
               <div className="flex flex-col mt-2 gap-2">
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={location} className="w-8" /> <p className="w-60">kigali . nyarugenge . rubangura plaza . Giants Studio</p> </div>
-                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={email} className="w-8" /> <p className="w-60">Giants@gmail.com</p> </div>
+                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={location} className="w-8" /> <p className="w-60">kigali . nyarugenge . rubangura House . Giants Studio</p> </div>
+                <div className="w-full h-14 flex flex-row gap-5 items-center "><img src={email} className="w-8" /> <p className="w-60">giantdesign2022@gmail.com</p> </div>
                 <div className="w-full h-14 flex flex-row gap-2 items-start  ">
                <div><img src={phone} className="w-8 mt-1" /></div>
                <div className="flex flex-col   justify-center">
