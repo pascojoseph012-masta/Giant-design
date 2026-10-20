@@ -291,7 +291,7 @@ const Main = ({TalkOpen}) => {
           <div className="w-full h-200 border-b border-zinc-800 px-3 flex flex-col gap-4 mt-4 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2
           lg:flex lg:flex-row lg:gap-2 lg:h-60 lg:mt-0 lg:items-center lg:justify-center min-[100px]:w-100 min-[400px]:w-full
           ">
-            <div className="h-50 bg-amber flex flex-col items-center justify-evenly lg:border-none sm:border-b rounded-4xl sm:border-zinc-800">
+            <div className="h-50 bg-amber flex flex-col items-center justify-evenly lg:border-none sm:border-b-2 rounded-4xl sm:border-zinc-800">
                <motion.p 
                 initial={{x: -100}}
               whileInView={{x: 0}}

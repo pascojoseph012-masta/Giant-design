@@ -26,7 +26,7 @@ const ModelLink = ({ClosePopup, TalkOpen}) => {
                 <Link to="/" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3" onClick={ClosePopup}>Home</Link>
                 <Link to="/Service" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3" onClick={ClosePopup}>Service</Link>
                 <Link to="/pertner" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3" onClick={ClosePopup}>Our Pertners</Link>
-                <Link to="/Carrer" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3" onClick={ClosePopup}>Our Carrer</Link>
+                <Link to="/Carrer" className="h-25 w-full text-lg font-medium rounded-full flex items-center backdrop-blur-3xl shadow-sm shadow-zinc-800 px-3" onClick={ClosePopup}>Our Team</Link>
             </div>
             <div className="px-3 w-full h-auto">
             <button type="button" onClick={TalkOpen} className="w-full h-15 border border-[#ec711e] backdrop-blur-2xl text-xl font-medium rounded-md mt-10 px-5">LET'S TALK</button>
