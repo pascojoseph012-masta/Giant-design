@@ -39,6 +39,7 @@ function App() {
   return (
     <Router>
      {/* <Muchad/> */}
+     <ScrollToTop/>
      { PopupOption && <ModelLink ClosePopup={ClosePopup} TalkOpen={TalkOpen}/>}
      { TalkOption && <ModelTalk TalkClose={TalkClose} />}
        {<Nav OpenPopup={OpenPopup} TalkOpen={TalkOpen}/>}

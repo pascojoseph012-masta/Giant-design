@@ -354,10 +354,10 @@ const Main = ({TalkOpen}) => {
           </div>
           {/* why section end */}
           {/* last section start */}
-          <div className="w-full h-80 flex flex-col items-center justify-evenly px-3 border-b-2 border-zinc-800 lg:border-none
+          <div className="w-full h-80 flex flex-col items-center justify-evenly px-3 border-b-2 border-zinc-800 -z-1 lg:border-none
           min-[100px]:w-100 min-[400px]:w-full
           "> 
-          <div className="w-full h-80 object-cover -z-10 absolute opacity-50  flex items-center justify-center">
+          <div className="w-full h-80 object-cover -z-5 absolute opacity-50  flex items-center justify-center">
             <img src={logo1} className=" object-cover absolute opacity-200  sm:w-80 s m:h-80 lg:w-100" />
 
           </div>
