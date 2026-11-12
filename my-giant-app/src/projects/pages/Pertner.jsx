@@ -89,7 +89,7 @@ const Pertner = ({TalkOpen}) => {
          <motion.div
         animate={{x: ["0%", "-100%"]}}
         transition={{
-                duration: "25",
+                duration: "45",
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "loop",
@@ -110,7 +110,7 @@ const Pertner = ({TalkOpen}) => {
            <motion.div
         animate={{x: ["0%", "-100%"]}}
         transition={{
-                duration: "25",
+                duration: "45",
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "loop",
